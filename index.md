@@ -16,6 +16,7 @@ Mocap Unleashed is a markerless mocap system.
 
 ---
 
+![sprinter in polygons](/assets/images/sprinter.png)
 
 ## Getting started
 

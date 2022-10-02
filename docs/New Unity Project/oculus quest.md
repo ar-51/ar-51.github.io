@@ -16,7 +16,7 @@ nav_order: 2
 
 ---
 
-<iframe width="512" height="400" src="https://www.youtube.com/embed/vr3xzahvIB0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vr3xzahvIB0" frameborder="0" allowfullscreen></iframe>
 
 ## Follow the "New Project" instructions from the quest website
 Follow the instruction from the [quest website](https://developer.oculus.com/documentation/unity/unity-gs-overview/)  to get setup up your project

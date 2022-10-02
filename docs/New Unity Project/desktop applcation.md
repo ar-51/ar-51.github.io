@@ -16,7 +16,7 @@ nav_order: 1
 
 ---
 
-<iframe width="512" height="400" src="https://www.youtube.com/embed/rsN7I83gimU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rsN7I83gimU" frameborder="0" allowfullscreen></iframe>
 
 ## Import the AR51 SDK unity package
 In Unity, click on import custom packages and import the AR51 Unity SDK.

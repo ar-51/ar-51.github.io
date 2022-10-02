@@ -20,7 +20,7 @@ Use Mocap-Studio to record the movement of the people inside the scene.
 {:toc}
 
 
-<iframe width="512" height="400" src="https://www.youtube.com/embed/5m-6Mp5ea3c" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5m-6Mp5ea3c" frameborder="0" allowfullscreen></iframe>
 
 
 ## Prerequistss

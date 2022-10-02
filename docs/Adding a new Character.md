@@ -20,7 +20,7 @@ The system support any type of Unity compatible Humanoid Character.
 {:toc}
 
 
-<iframe width="512" height="400" src="https://www.youtube.com/embed/WfF9q_2Mztc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WfF9q_2Mztc" frameborder="0" allowfullscreen></iframe>
 
 
 ## Prerequistss

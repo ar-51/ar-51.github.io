@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Documentation - Home
 nav_order: 1
 description: "Mocap Unleashed - Documentation"
 permalink: /
@@ -19,5 +19,6 @@ Mocap Unleashed is a markerless mocap system.
 
 ## Getting started
 
-1. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
-2. [Add a new Character]({% link docs/Adding a new Character.md %}).
+1. [Perform System Calibration]({% link docs/System Calibration/System Calibration.md %}).
+2. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
+3. [Add a new Character]({% link docs/Adding a new Character.md %}).

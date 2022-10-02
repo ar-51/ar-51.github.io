@@ -1,7 +1,7 @@
 ---
 layout: default
 title: New Unity Project
-nav_order: 2
+nav_order: 3
 has_children: true
 permalink: /docs/New Unity Project
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Stream 3D objects to the OMS as overlay
-nav_order: 4
+nav_order: 6
 ---
 
 

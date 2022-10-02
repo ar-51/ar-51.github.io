@@ -6,7 +6,7 @@ description: "Mocap Unleashed - Documentation"
 permalink: /
 ---
 
-# Mocap Unleashed - Documentation.
+# Mocap Unleashed - Documentation
 {: .fs-9 }
 
 Mocap Unleashed is a markerless mocap system.
@@ -19,5 +19,5 @@ Mocap Unleashed is a markerless mocap system.
 
 ## Getting started
 
-1. [Setup a new unity project]({{ site.baseurl }}{% link docs/New Unity Project/New Unity Project.md %}).
-2. [Add a new Character]({{ site.baseurl }}{% link docs/Adding a new Character.md %}).
+1. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
+2. [Add a new Character]({% link docs/Adding a new Character.md %}).

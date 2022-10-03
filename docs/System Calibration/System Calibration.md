@@ -7,6 +7,8 @@ permalink: /docs/System Calibration
 ---
 
 # System Calibration
-
-Set up a new unity project.
+Calibrate the system & devices.
 {: .fs-6 .fw-300 }
+
+![puzzle](/assets/images/puzzle.png)
+

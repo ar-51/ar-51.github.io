@@ -44,9 +44,10 @@ This means that if there is a certain area in which you know that there will be 
 ### Position the cameras around the room to get a decent coverage
 
 For a standard system of 6m by 6m, we recommend:
-* Using 8 cameras.
-* Placing 2 cameras at each corner.
-* Place each camera approximately a meter from the corner.
+* Using **8 cameras**.
+* Camera height should be between **2.5m to 3m**.
+* Place **2 cameras at each corner**.
+* Place each camera approximately **0.5 meter from the corner**.
 ![camera_position](/assets/images/camera_position.png)
 
 

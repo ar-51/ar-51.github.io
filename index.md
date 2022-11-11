@@ -20,6 +20,7 @@ Mocap Unleashed is a markerless mocap system.
 
 ## Getting started
 
-1. [Perform System Calibration]({% link docs/System Calibration/System Calibration.md %}).
-2. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
-3. [Add a new Character]({% link docs/Adding a new Character.md %}).
+1. [Room & Camera Setup]({% link docs/Room and Camera Setup.md %}).
+2. [Perform System Calibration]({% link docs/System Calibration/System Calibration.md %}).
+3. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
+4. [Add a new Character]({% link docs/Adding a new Character.md %}).

@@ -25,15 +25,18 @@ This document contains best-practice instructions regarding how to position the 
 AR51's Mocap Unleashed system is a multi-camera optical system. 
 As an optical system, the system achieves the best result when the room is well lit 
 and when the person is not occluded.
-To extract the correct pose, two cameras which can see the subject are sufficient.
+To extract the correct pose, two cameras are sufficient.
 However, as more cameras observe a body part, the accuracy increases.
-This becomes even more critical in challenging scenarios when occlusions occur 
+This becomes even more critical in challenging scenarios when occlusions occur often
 (occlusions by another person, self-made occlusions, or by objects).
 
 ## Best practice 
 ### The room should be well-lit with diffused light
-The system works best when the room is well-lit.
-It is also preferable to use diffused lighting and not spotlighting. 
+The system works best when the room is:
+* Well-lit.
+* Use diffused lighting.
+* Avoid using spotlighting. 
+
 Spotlighting creates hard shadows and can cause dead areas in the image due to over-exposure regions.
 
 A dark room can cause degradation in quality.
@@ -41,7 +44,8 @@ A dark room can cause degradation in quality.
 
 ### Cover your area of interest
 There are no theoretical constraints on how to place the cameras in the scene.
-This means that if there is a certain area in which you know that there will be more occlusion or that you require better accuracy, you can place more cameras in this specific area. 
+The cameras can also be placed un-evenly in the room.
+This means that if there is a certain area in which you require better accuracy, you can place more cameras in this specific area. 
 
 ### Recommended setting of a 6x6 space 
 

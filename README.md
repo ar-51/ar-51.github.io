@@ -34,3 +34,8 @@ Or install it yourself as:
     $ gem install just-the-docs
 
 [View the documentation](https://just-the-docs.github.io/just-the-docs/) for usage information.
+
+To run the server on your machine
+
+    $ bundle exec jekyll serve
+And navigate to the site:  http://127.0.0.1:4000/ (the site might be on a different port)

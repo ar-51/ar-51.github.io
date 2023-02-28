@@ -34,8 +34,8 @@ This becomes even more critical in challenging scenarios when occlusions occur o
 ### The room should be well-lit with diffused light
 The system works best when the room is:
 * Well-lit.
-* Use diffused lighting.
-* Avoid using spotlighting. 
+* Lit using diffused lighting.
+* Spotlighting is minimized. 
 
 Spotlighting creates hard shadows and can cause dead areas in the image due to over-exposure regions.
 

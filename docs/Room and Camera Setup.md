@@ -53,7 +53,7 @@ For a standard system of 6m by 6m, we recommend:
 * Using **8 cameras**.
 * Camera height should be between **2.5m to 3m**.
 * Place **2 cameras at each corner**.
-* Place each camera approximately **0.5 meter from the corner**.
+* Place each camera approximately **0.7 meter from the corner**.
 ![camera_position](/assets/images/camera_position.png)
 
 

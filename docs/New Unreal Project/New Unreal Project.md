@@ -1,9 +1,9 @@
 ---
 layout: default
-title: New Unity Project
-nav_order: 4
+title: New Unreal Project
+nav_order: 5
 has_children: true
-permalink: /docs/New Unity Project
+permalink: /docs/New Unreal Project
 ---
 
 # New Unity Project

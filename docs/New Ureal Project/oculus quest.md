@@ -45,6 +45,12 @@ In the Content Browser window. Select settings and enable "Show Plugin Content"
 ## Drag the AR51 SDK into the current level
 From the "Content Browser" windows, select Plugins -> AR51 SDK Content -> Blueprints and drag "AR51SDK_Blueprint" into the level. 
 
+## Make sure you have enabled Meta's Hand support
+In the project settings under the Meta XR plugin section choose the following ![hand_support](/assets/images/unreal_enable_meta_hand_support.png):
+* "Hand Tracking Support"  should be "Controllers and Hands" or "Hands Only"
+* "Hand Tracking Version"  works better with V2.
+
+unreal_enable_meta_hand_support.png
 ## Hit Play 
 If AR51's system is running on the same local network as your device, you should see character move live ![character_waving](/assets/images/unreal_character_waving.png).
 

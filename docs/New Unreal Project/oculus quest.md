@@ -63,6 +63,13 @@ Open the "Oculus" PC application.
 Under Settings -> Beta, enable "Developer runtime features".
 ![enable_developer_option_on_oculus_pc_app](/assets/images/enable_developer_on_quest_pc_app.png)
 
+## In a tethered deployment - enable "Start in VR"
+Before deploying to a tethered application (PC VR app), be sure that you project is set to start in VR.
+In Unreal engine, under "Project Settings" -> "Project Description" enable "Start in VR".
+
+![enable_start_in_VR](/assets/images/unreal_engine_start_in_VR.png)
+
+
 ## Hit Play 
 Make sure that AR51's system is running on the same local network as your device.
 {: .warning }

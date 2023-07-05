@@ -54,6 +54,15 @@ In the project settings under the Meta XR plugin section choose the following ![
 * "Hand Tracking Support"  should be "Controllers and Hands" or "Hands Only"
 * "Hand Tracking Version"  works better with V2.
 
+
+## Be sure to enable "Developer runtime features" on the oculus PC app
+Without enabling this option you might not be able to move your hands on a tethered app and also in "VR preview" mode
+{: .warning }
+
+Open the "Oculus" PC application.
+Under Settings -> Beta, enable "Developer runtime features".
+![enable_developer_option_on_oculus_pc_app](/assets/images/enable_developer_on_quest_pc_app.png)
+
 ## Hit Play 
 Make sure that AR51's system is running on the same local network as your device.
 {: .warning }

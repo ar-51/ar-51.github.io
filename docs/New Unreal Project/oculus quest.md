@@ -45,8 +45,15 @@ In the Content Browser window. Select settings and enable "Show Plugin Content"
 ## Drag the AR51 SDK into the current level
 From the "Content Browser" windows, select Plugins -> AR51 SDK Content -> Blueprints and drag "AR51SDK_Blueprint" into the level. 
 
+## Drag the AR51 Oculus-dependent Blueprints into the current level
+From the "Content Browser" windows, select Plugins -> AR51SDK_OCULUS Content -> Blueprints and drag: "OculusQuestBoundaryAdapter_BP", "OculusQuestHandsAdapter_BP" and "VRPawn" into the level. 
+
+## Make sure your VrPawn object uses "stage tracking"
+Either create a new VRPawn object (using [these instructions](https://hub.vive.com/storage/docs/en-us/UnrealPlugin/VRPawn.html)) or edit the provided VRPawn Blueprint.
+Make sure that your tracking space is set to Stage ![tracking_set_to_stage](/assets/images/unreal_vrpawn_tracking_origin_set_to_stage.png)
+
 ## In AR51 Blueprint, select "Oculus Quest" as the platform type
-Edit the AR51 Buleprint. Under general you should see a field "Platform" please select "Oculus Quest"  ![select_platform_type](/assets/images/unreal_select_plaform_type.png)
+From the Details pannel, under general you should see a field "Platform" please select "Oculus Quest"  ![select_platform_type](/assets/images/unreal_select_plaform_type.png)
 
 
 ## Make sure you have enabled Meta's Hand support

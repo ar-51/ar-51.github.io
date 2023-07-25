@@ -30,6 +30,7 @@ Follow the instruction from the [vive unreal hand tracking guidelines](https://d
 ## Enable OpenXR and OpenXRHandTracking plugins
 
 In unreal engine under plugins make sure that the openXR and that the openXRHandTracking is checked.
+![plugin_folder](/assets/images/unreal_openXR_plugin_enabled.png)
 
 ## Make sure that you PC streaming is working correctly
 On your pc open both SteamVR and Vive Business Streaming apps.
@@ -44,6 +45,7 @@ Hand Tracking must be enabled on VBS inorder to track finger motion.
 ## In SteamVR, make sure that openXR backend is set to SteamVR.
 Open SteamVR settings.
 Under "OpenXR" make sure that your current OpenXR Runtime is set to SteamVR.
+![plugin_folder](/assets/images/steamvr_uses_openxr_backend.png)
 
 ## Try to deploy a simple level to your headset
 

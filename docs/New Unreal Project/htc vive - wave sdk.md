@@ -5,7 +5,7 @@ parent: New Unreal Project
 nav_order: 3
 ---
 
-# Set up a New Unreal Vive Wave-SDK Project
+# Set up a New Unreal Vive Wave-SDK Project - Standalone Android
 {: .no_toc }
 
 ## Table of contents
@@ -20,7 +20,7 @@ nav_order: 3
 ## Follow the "New Project" instructions from the Vive Wave website
 Follow the instruction from the [wave website](https://hub.vive.com/storage/docs/en-us/UnrealPlugin/UnrealPluginGettingStart.html)  to get setup up your project
 
-Make Sure to disable **"Support Vulkan"** and enable **"Support OpenGL ES3.1"**
+Make Sure to disable **"Support Vulkan"** and enable **"Support OpenGL ES3.1"**. Also make sure to select **"No MSAA"** as the valud for MSAA Sample Count. 
 {: .warning }
 
 ## Ensure that your project is compatiable with the android guidelines
@@ -67,7 +67,7 @@ If you do not set the tracking mode to stage, the skeleton will not appear on yo
 {: .warning }
 
 ## In AR51 Blueprint, select "HtcVive" as the platform type
-From the Details pannel, Under general you should see a field "Platform" please select "Oculus Quest"  ![select_platform_type](/assets/images/unreal_select_plaform_type_wave.png)
+From the Details pannel, Under general you should see a field "Platform" please select "HTC Vive"  ![select_platform_type](/assets/images/unreal_select_plaform_type_wave.png)
 
 
 ## Make sure you added WaveInputManager to the scene to enable Hand support

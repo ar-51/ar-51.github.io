@@ -20,6 +20,9 @@ nav_order: 2
 ## Follow the "New Project" instructions from the quest website
 Follow the instruction from the [quest website](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/)  to get setup up your project
 
+Remember to disable **Support OpenGL ES3.2** under android->build. Quest projects will not work with that option ticked.
+{: .warning }
+
 ## Ensure that your project is compatiable with the android guidelines
 Follow the instruction from the [unreal android guidelines](https://docs.unrealengine.com/5.0/en-US/how-to-set-up-android-sdk-and-ndk-for-your-unreal-engine-development-environment/)  to get setup up your project
 

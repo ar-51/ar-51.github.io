@@ -32,6 +32,14 @@ Follow the instruction from the [vive unreal hand tracking guidelines](https://d
 In unreal engine, under plugins, make sure that the openXR and that the openXRHandTracking is checked.
 ![plugin_folder](/assets/images/unreal_openXR_plugin_enabled.png)
 
+## Disable Oculus Reltated plugins and the SteamVR plugin
+
+In unreal engine, under plugins, make sure that other non-openXR plugins are disabled.
+![plugin_folder](/assets/images/unreal_disableSteamVr.png)
+
+Make Sure you **disable** the **"SteamVR Plugin"**, otherwise the hand movemant will not be recognized correctly.
+{: .warning }
+
 ## Make sure that you PC-VR streaming is working correctly
 On your pc open both SteamVR and Vive Business Streaming apps.
 

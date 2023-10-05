@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/New Unreal Project
 ---
 
-# New Unity Project
+# New Unreal Project
 
 Set up a new unity project.
 {: .fs-6 .fw-300 }

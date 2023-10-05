@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Using an Animation Blueprint
-nav_order: 7
+parent: New Unreal Project
+nav_order: 5
 ---
 
 # Adding a new Character 

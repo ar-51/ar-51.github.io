@@ -21,9 +21,6 @@ The system support any type of Unity compatible Humanoid Character.
 {:toc}
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WfF9q_2Mztc" frameborder="0" allowfullscreen></iframe>
-
-
 This tutorial will guide you through the process of importing an FBX file, creating a blueprint out of the character, editing it, and utilizing the Animation Blueprint in Unreal Engine.
 
 

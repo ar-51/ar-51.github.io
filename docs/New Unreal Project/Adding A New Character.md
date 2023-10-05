@@ -8,7 +8,7 @@ nav_order: 5
 # Adding a new Character 
 {: .no_toc }
 
-The system support any type of Unity compatible Humanoid Character.
+The system support any type of Unreal compatible Humanoid Character.
 {: .fs-6 .fw-300 }
 
 

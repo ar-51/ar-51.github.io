@@ -43,39 +43,36 @@ A dark room can cause degradation in quality.
 {: .warning }
 
 ### Cover your area of interest
-There are no theoretical constraints on how to place the cameras in the scene.
-The cameras can also be placed un-evenly in the room.
-This means that if there is a certain area in which you require better accuracy, you can place more cameras in this specific area. 
+There are no strict rules for camera placement; they can be unevenly distributed in the room.
+For enhanced accuracy in specific areas, deploy more cameras in those regions.
 
 ### Recommended setting of a 6x6 space 
 
 For a standard system of 6m by 6m, we recommend:
-* Using **8 cameras**.
-* Camera height should be between **2.5m to 3m**.
-* Place **2 cameras at each corner**.
+* Use **8 cameras** placed at heights between **2.5m to 3m**.
+* Position **2 cameras at each corner**.
 * Place each camera approximately **0.7 meter from the corner**.
 ![camera_position](/assets/images/camera_position.png)
 
 
-### Place the camera so they get diverse viewing angles
-There is no benefit in placing the camera in the same spot and pointing them in the same direction.
-This will cause redundant information and the system will not benefit from it.
+### Diverse Viewing Angles
+* Avoid redundant information by placing cameras at different spots and angles.
+* Lack of diversity in viewing angles can lead to degraded image quality.
 
 A setup with a lack of diversity in viewing angles can cause degradation in quality.
 {: .warning }
 
-### Minimize the capture of dead space
-* The camera should look into the distance but not capture too much of the ceiling.
-* Try not to point to the ceiling or straight down to the floor. 
+### Minimize Dead Space
+* Position cameras to avoid capturing excessive ceiling space.
+* Avoid pointing cameras directly at the ceiling or floor to minimize dead space. 
 
 Placing a camera on the ceiling and pointing it straight down is not recommended.
 {: .warning }
 
-### Reduce camera tilt - level the cameras
-Try to make the camera as level as much as possible. 
-The system works best when the cameras are not tilted.
+### Reduce camera tilt 
+* Try to reduce camera tilt as much as possible. 
 
-A severe camera tilt can cause degradation in quality.
+Severe camera tilt can result in reduced image quality.
 {: .warning }
 
 ## Use Live-Feed from OMS to get a feedback

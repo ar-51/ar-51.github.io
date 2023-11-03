@@ -57,6 +57,9 @@ Once the calibration board detection is completed the images in the camera feed 
 ### Switch on the calibration sphere
 Once the feed goes dark, switch on the provided calibration sphere.
 
+Make sure your light bulb emits a strong white light. Using yellow, warm light can result with a bad calibration score.
+{: .warning }
+
 ### Move around the room holding the calibration sphere
 Do not run while holding the sphere.\
  Make sure you move around the entire capture area.\

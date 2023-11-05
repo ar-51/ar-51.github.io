@@ -51,22 +51,8 @@ It is important to note that compromising the quality of any components may lead
 | Component          | Example Type                                        | Information                                                                        |
 |--------------------|-----------------------------------------------------|------------------------------------------------------------------------------------|
 | CPU                | Intel Core i9 13900K / 1700 Tray                    | The CPU should have enough **lanes** to support network cards and the GPU.             |
-| Motherboard        | [ASUS ROG STRIX Z790-E GAMING WIFI](https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-e-gaming-wifi-model/)                        | Requirements:                                                                      |
-|                    |                                                     | - PCI-e 4 for **RTX 4090**                                                             |
-|                    |                                                     | - **2x** PCI-e slots for a card (transmits 6GB/s each, **PCIe4 x 4mode** - a minimum for each slo      |
+| Motherboard        | [ASUS ROG STRIX Z790-E GAMING WIFI](https://rog.asus.com/motherboards/rog-strix/rog-strix-z790-e-gaming-wifi-model/)                        | Requirements:  <br> - PCI-e 4 for **RTX 4090** <br> - **2x** PCI-e slots for a card (transmits 6GB/s each, **PCIe4 x 4mode** - a minimum for each slo      |
 | Memory (RAM)       | Corsair DDR 5 64G (32x2) 5200                       | Minimum speed: 4000                                                                |
 | Storage (HDD)      | SSD 1.0TB                                           | 512GB should also suffice.                                                         |
-| GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky.
-|                    |                                                     | **Ensure the motherboard has space for two additional PCIe network cards.**           |
-| 2 PCI-e Netw cards | LR-LINK PCI-e v4.0 x8 Quad Ports 4 SFP28 25G Intel E810            |[Link to a verified supplier](https://www.alibaba.com/product-detail/LR-LINK-PCI-Express-v4-0_1600768840919.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL) |
-|                    |     +8 SFTP RJ45 connectors                         |[Link to a verified supplier](https://www.alibaba.com/product-detail/LR-LINK-LRXP0010-Y3ATR-10Gb-SFP_1600768803659.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL)
-
-
-
-
-
-
-
-
-
-
+| GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky. <br> **Ensure the motherboard has space for two additional PCIe network cards.**           |
+| 2 PCI-e Netw cards | LR-LINK PCI-e v4.0 x8 Quad Ports 4 SFP28 25G Intel E810 <br>      +8 SFTP RJ45 connectors           |[Link to a verified supplier](https://www.alibaba.com/product-detail/LR-LINK-PCI-Express-v4-0_1600768840919.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL)  <br> [Link to a verified supplier](https://www.alibaba.com/product-detail/LR-LINK-LRXP0010-Y3ATR-10Gb-SFP_1600768803659.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL) |

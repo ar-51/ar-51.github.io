@@ -6,8 +6,3 @@
   {% assign color_scheme = "light" %}
 {% endif %}
 {% include css/just-the-docs.scss.liquid color_scheme=color_scheme %}
-table {
-    border-width: 2px; /* You can adjust the thickness as needed */
-    border-style: solid;
-    border-color: black; /* You can change the border color if desired */
-}

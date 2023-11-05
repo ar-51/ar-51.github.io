@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 9MP camera system
+title: 9MP Camera System
 parent: Hardware Specs
 nav_order: 2
 ---
@@ -23,7 +23,7 @@ Mocap Unleashed stands as a markerless motion capture solution, leveraging RGB-b
 The hardware specifications of AR 51's Mocap Unleashed system have undergone rigorous testing. It's crucial to emphasize that any compromise in the quality of components could significantly impair the system's performance and speed.
 
 
-## PC Specs:
+## PC Specification
 
 
 | Component          | Example Type                                        | Information                                                                        |

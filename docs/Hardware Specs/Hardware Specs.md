@@ -1,0 +1,15 @@
+---
+layout: default
+title: Hardware Requirments and Specifications 
+nav_order: 9
+has_children: true
+permalink: /docs/Hardware Specs
+---
+
+# Hardware Requirments and Specifications 
+
+These are hardware requiremnts organized by quality.
+{: .fs-6 .fw-300 }
+
+![unity](/assets/images/unity.png)
+

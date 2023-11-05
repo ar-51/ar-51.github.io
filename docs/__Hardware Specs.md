@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware Requirments and Specifications 
-nav_order: 9 
+nav_order: 12
 ---
 
 # Hardware Specifications for MoCap Unleashed 

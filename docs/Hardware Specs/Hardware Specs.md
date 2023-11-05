@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hardware Requirments and Specifications 
+title: Hardware Specs
 nav_order: 9
 has_children: true
 permalink: /docs/Hardware Specs

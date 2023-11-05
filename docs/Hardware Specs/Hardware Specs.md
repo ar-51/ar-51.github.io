@@ -11,5 +11,5 @@ permalink: /docs/Hardware Specs
 These are hardware requiremnts organized by quality.
 {: .fs-6 .fw-300 }
 
-![unity](/assets/images/unity.png)
+![pc](/assets/images/pc.jpeg)
 

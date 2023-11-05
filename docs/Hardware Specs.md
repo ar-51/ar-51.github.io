@@ -21,7 +21,7 @@ This document contains hardware specification of recommanded hardware to run Moc
 
 
 
-## Pointers
+## Mocap Unleashed process 8 parallel streams Gige cameras 
 Mocap Unleashed is a markerless motion capture solution that utilizes RGB-based cameras, along with advanced deep-learning and computer-vision algorithms to generate real-time output. 
 Our GigE-cameras collectively produce between 4.7 Gigapixels to 8.7 Gigapixels of data per second, which is then processed by the GPUs. 
 As a result, the computation demands substantial resources.
@@ -36,16 +36,12 @@ It is important to note that compromising the quality of any components may lead
 
 | Component          | Example Type                                        | Information                                                                        |
 |--------------------|-----------------------------------------------------|------------------------------------------------------------------------------------|
-| CPU                | Intel Core i9 13900K / 1700 Tray                    | The CPU should have enough **lanes** to support network cards and the GPU.             |
-| Motherboard        | [Gigabyte Z790 AORUS ELITE AX](https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp#sp)                        | Requirements:                                                                      |
-|                    |                                                     | - PCI-e 4 for **RTX 4090**                                                             |
-|                    |                                                     | - **2x** PCI-e slots for Ethernet extension cards (3GByte/s each, **PCIe3 x 4 mode**)      |
+| CPU                | Intel Core i9 13900K / 1700 Tray                    | The CPU should have enough **lanes** to support network cards and the GPU.         |
+| Motherboard        | [Gigabyte Z790 AORUS ELITE AX](https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp#sp)                        | Requirements:  <br> - PCI-e 4 for **RTX 4090**  <br>                - **2x** PCI-e slots for Ethernet extension cards (3GByte/s each, **PCIe3 x 4 mode**)                                     |
 | Memory (RAM)       | DDR5 64GB (32x2) 5200 Corsair                       | Minimum speed: 4000                                                                |
 | Storage (HDD)      | SSD 1.0TB                                           | 512GB should also suffice.                                                         |
-| GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky.
-|                    |                                                     | **Ensure the motherboard has space for two additional PCIe network cards.**           |
-| 2 PCI-e Netw cards | Intel x710-t4 PCI-Express x8 10Gbe RJ45             | 2x PCIe network cards with 4x ports (10Gbps each, RJ45 or SFP+).                   |
-|                    |                                                     | [Link to a verified supplier](https://www.alibaba.com/product-detail/Intel-x710-t4-PCI-Express-x8_62473433376.html?spm=a2756.order-detail-ta-ta-b.0.0.72712fc29ZCC0S).                                                       |
+| GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky. <br> **Ensure the motherboard has space for two additional PCIe network cards.**           |
+| 2 PCI-e Netw cards | Intel x710-t4 PCI-Express x8 10Gbe RJ45             | 2x PCIe network cards with 4x ports (10Gbps each, RJ45 or SFP+). <br>  [Link to a verified supplier](https://www.alibaba.com/product-detail/Intel-x710-t4-PCI-Express-x8_62473433376.html?spm=a2756.order-detail-ta-ta-b.0.0.72712fc29ZCC0S).                        |
 
 
 

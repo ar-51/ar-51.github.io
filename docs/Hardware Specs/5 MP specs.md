@@ -24,9 +24,7 @@ The hardware specifications of AR 51's Mocap Unleashed system have undergone rig
 
 ## PC Specification
 
-Make sure the motherboard can support the network cards and the GPU:
-* Make sure there are **free slots for 2 pcie extenstion**.  4090/4080 cards are bulky the do not use water-cooling.
-* The 2 additional PCIeslots should support a minimum of   **PCIe3 x 4 mode**
+Make sure the motherboard can support the network cards and the GPU: <br> * Make sure there are **free slots for 2 pcie extenstion**.  4090/4080 cards are bulky the do not use  water-cooling. <br> * The 2 additional PCIeslots should support a minimum of   **PCIe3 x 4 mode**
 {: .warning }
 
 

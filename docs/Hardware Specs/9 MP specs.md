@@ -24,6 +24,8 @@ The hardware specifications of AR 51's Mocap Unleashed system have undergone rig
 
 
 ## PC Specification
+Make sure the **motherboard can support both two network cards and the GPU**: <br> * Make sure there are **free slots for 2 pcie extenstion**.  4090/4080 cards are bulky the do not use water-cooling. <br> * The 2 additional PCIeslots should support a minimum of   **PCIe4 x 4 mode** <br> * Note that the extension example extension card uses  **PCI-e v4.0 x4** and also requrires these [SFP adapters](https://www.alibaba.com/product-detail/LR-LINK-LRXP0010-Y3ATR-10Gb-SFP_1600768803659.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL) 
+{: .warning }
 
 
 | Component          | Example Type                                        | Information                                                                        |
@@ -34,5 +36,5 @@ The hardware specifications of AR 51's Mocap Unleashed system have undergone rig
 | Memory (RAM)       | Corsair DDR 5 64G (32x2) 5200                       | Minimum speed: 4000                                                                |
 | Storage (HDD)      | SSD 1.0TB                                           | 512GB should also suffice.                                                         |
 | GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky. <br> **Ensure the motherboard has space for two additional PCIe network cards.**           |
-| 2x PCI-e Network cards | LR-LINK **PCI-e v4.0 x8 Quad Ports** 4 SFP28 (25G Intel E810) <br>      +8 SFTP RJ45 connectors           | **PCI-e v4.0** cards are required [Link to a verified supplier for the network card](https://www.alibaba.com/product-detail/LR-LINK-PCI-Express-v4-0_1600768840919.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL)  <br> [Link to a verified supplier of the sfp connectors](https://www.alibaba.com/product-detail/LR-LINK-LRXP0010-Y3ATR-10Gb-SFP_1600768803659.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL) |
+| 2x PCI-e Network cards | [LR-LINK **PCI-e v4.0 x8 Quad Ports** 4 SFP28 (25G Intel E810)](https://www.alibaba.com/product-detail/LR-LINK-PCI-Express-v4-0_1600768840919.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL) <br>      [+8 STP RJ45 connectors](https://www.alibaba.com/product-detail/LR-LINK-LRXP0010-Y3ATR-10Gb-SFP_1600768803659.html?spm=a2756.order-detail-ta-ta-b.0.0.62332fc2jmW6qL)           | **PCI-e v4.0** cards are required  |
 

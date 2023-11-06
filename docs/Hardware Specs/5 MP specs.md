@@ -24,7 +24,7 @@ The hardware specifications of AR 51's Mocap Unleashed system have undergone rig
 
 ## PC Specification
 
-Make sure the motherboard can support the network cards and the GPU: <br> * Make sure there are **free slots for 2 pcie extenstion**.  4090/4080 cards are bulky the do not use  water-cooling. <br> * The 2 additional PCIeslots should support a minimum of   **PCIe3 x 4 mode**
+Make sure the **motherboard can support both two network cards and the GPU**: <br> * Make sure there are **free slots for 2 pcie extenstion**.  4090/4080 cards are bulky the do not use  water-cooling. <br> * The 2 additional PCIeslots should support a minimum of   **PCIe3 x 4 mode**
 {: .warning }
 
 
@@ -34,7 +34,7 @@ Make sure the motherboard can support the network cards and the GPU: <br> * Make
 | Motherboard        | [Gigabyte Z790 AORUS ELITE AX](https://www.gigabyte.com/Motherboard/Z790-AORUS-ELITE-AX-rev-10/sp#sp)                        | Requirements:  <br> - PCI-e 4 for **RTX 4090**  <br>                - **2x** PCI-e slots for Ethernet extension cards (3GByte/s each, **PCIe3 x 4 mode**)                                     |
 | Memory (RAM)       | DDR5 64GB (32x2) 5200 Corsair                       | Minimum speed: 4000                                                                |
 | Storage (HDD)      | SSD 1.0TB                                           | 512GB should also suffice.                                                         |
-| GPU (RTX 4090)     | Gigabyte RTX 4090 GV-N4090GAMING OC-24GD            | When not using water cooling 4090 cards can be bulky. <br> **Ensure the motherboard has space for two additional PCIe network cards.**           |
+| GPU (RTX 4080)     | Gigabyte RTX 4080                                   | When not using water cooling 4090 cards can be bulky. <br> **Ensure the motherboard has space for two additional PCIe network cards.**           |
 | Water Cooling      | Corsair iCUE H150i RGB PRO XT Liquid CPU Cooler     | 4090 without water cooling is very bulky and does not leave space for the 2 pcie cards|
-| 2x PCI-e Netw cards | Intel x710-t4 PCI-Express x8 10Gbe RJ45             | 2x PCIe network cards with 4x ports (10Gbps each, RJ45 or SFP+). <br>  [Link to a verified supplier](https://www.alibaba.com/product-detail/Intel-x710-t4-PCI-Express-x8_62473433376.html?spm=a2756.order-detail-ta-ta-b.0.0.72712fc29ZCC0S).                        |
+| 2x PCI-e Netw cards | [Intel x710-t4 PCI-Express x8 10Gbe RJ45](https://www.alibaba.com/product-detail/Intel-x710-t4-PCI-Express-x8_62473433376.html?spm=a2756.order-detail-ta-ta-b.0.0.72712fc29ZCC0S)             | 2x PCIe network cards with 4x ports (10Gbps each, RJ45 or SFP+).                        |
 

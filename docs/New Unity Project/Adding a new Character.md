@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adding a new Character
+title: Adding a new Character in Unity
 parent: New Unity Project
 nav_order: 4
 ---
@@ -12,7 +12,6 @@ The system support any type of Unity compatible Humanoid Character.
 {: .fs-6 .fw-300 }
 
 
-
 ---
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,9 +19,7 @@ The system support any type of Unity compatible Humanoid Character.
 1. TOC
 {:toc}
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WfF9q_2Mztc" frameborder="0" allowfullscreen></iframe>
-
 
 ## Prerequisites
 Make sure the sdk is in the scene (drag the prefab).

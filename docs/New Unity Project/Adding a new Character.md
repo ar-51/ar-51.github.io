@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Adding a new Character
+parent: New Unity Project
 nav_order: 6
 ---
 

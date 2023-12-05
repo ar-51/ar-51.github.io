@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adding a New Character
+title: Adding a New Character in Unreal
 parent: New Unreal Project
 nav_order: 5
 ---

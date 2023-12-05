@@ -18,6 +18,7 @@ nav_order: 1
 
 ## Download and extract AR51 Unreal Plugins into the Plugins folder
 Your plugins folder should look like this ![plugin_folder](/assets/images/unreal_plugin_folder_clean.png)
+
 Restart the editor to enable the plugin.
 
 ## Create a new level

@@ -24,4 +24,3 @@ Mocap Unleashed is a markerless mocap system.
 2. [Perform System Calibration]({% link docs/System Calibration/System Calibration.md %}).
 3. [Setup a new unity project]({% link docs/New Unity Project/New Unity Project.md %}).
 4. [Setup a new unreal-engine project]({% link docs/New Unreal Project/New Unreal Project.md %}).
-5. [Add a new Character]({% link docs/Adding a new Character.md %}).

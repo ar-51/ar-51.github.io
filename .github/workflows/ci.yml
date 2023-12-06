@@ -22,7 +22,7 @@ jobs:
       run: |
         docker run --rm \
         --volume="${{ github.workspace }}:/srv/jekyll" \
-        jekyll/jekyll:${{ matrix.jekyll-version }} /bin/bash -c "gem install bundler -v 2.3.27 && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
+        jekyll/jekyll:${{ matrix.jekyll-version }} /bin/bash -c "gem install bundler -v 2.3.27 && chown -R $(whoami) /srv/jekyll && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
 
   assets:
     name: Test CSS and JS

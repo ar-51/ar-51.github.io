@@ -29,7 +29,7 @@ Follow the instruction from the [unreal android guidelines](https://docs.unreale
 
 ## Download and extract Meta Unreal Plugins into the Plugins folder
 
-Download Meta's plugin from [meta unreal plugin] (https://developer.oculus.com/downloads/package/unreal-engine-5-integration/). Extract the plugin into the project "Plugins" folder and restart unreal editor.
+Download Meta's plugin from [meta unreal plugin](https://developer.oculus.com/downloads/package/unreal-engine-5-integration/). Extract the plugin into the project "Plugins" folder and restart unreal editor.
 
 ## Try to deploy a simple level to your headset
 

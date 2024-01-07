@@ -8,7 +8,7 @@ nav_order: 5
 # Adding a new Character 
 {: .no_toc }
 
-The system support any type of Unreal compatible Humanoid Character.
+The system supports any type of Unreal-compatible Humanoid Character.
 {: .fs-6 .fw-300 }
 
 
@@ -25,8 +25,8 @@ This tutorial will guide you through the process of importing an FBX file, creat
 
 
 ## Prerequisites
-Make sure the sdk is in the scene (drag the blueprint).
-And that the unreal project is set-up correctly.
+Make sure the SDK is in the scene (drag the blueprint).
+And that the unreal project is set up correctly.
 
 
 ### Step 1: Import FBX
@@ -40,7 +40,7 @@ And that the unreal project is set-up correctly.
 
 1. In the **Content Browser**, find the imported FBX character.
 2. Right-click on the character and select **Create Blueprint**.
-3. Choose a name and save location for the blueprint, then click **Create Blueprint**.
+3. Choose a name and save the location for the blueprint, then click **Create Blueprint**.
 
 ### Step 3: Edit the Blueprint
 
@@ -51,7 +51,7 @@ And that the unreal project is set-up correctly.
 ### Step 4: Add AR51Character
 
 1. Drag the AR51Character class into the blueprint.
-2. Select the AR51Character in the blueprint editor.
+2. Select the “AR51 Character” in the blueprint editor.
 
 #### 4.a Set the Mesh
 

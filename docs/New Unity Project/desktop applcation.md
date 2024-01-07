@@ -29,7 +29,7 @@ From Assets/AR51.Unity.SDK/Prefabs drag the AR51.Unity.SDK prefab into the scene
 In the "Service Manager" component select the platform of your choice.
 
 ## Select the hand provider
-If you are using a hands (i.e. Ultra leap) select the appropriate provider in the "Service Manager" component.
+If you are using hands in your experience (i.e. Ultra leap) select the appropriate provider in the "Service Manager" component.
 
 ## Run the Unity Scene
 Run the scene in unity. 

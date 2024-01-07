@@ -18,26 +18,26 @@ nav_order: 4
 
 
 ## Follow the "New Project" instructions from the Vive OpenXR website
-Follow the instruction from the [HTC website](https://developer.vive.com/resources/openxr/openxr-pcvr/overview/)  to get setup up your project
+Follow the instructions from the [HTC website](https://developer.vive.com/resources/openxr/openxr-pcvr/overview/)  to set up your project
 
 Make Sure to install **"Vive Business Streaming"** and **"SteamVR"**
 {: .warning }
 
-## Ensure that your project is compatiable with the htc hand tracking guidelines
-Follow the instruction from the [vive unreal hand tracking guidelines](https://developer.vive.com/resources/openxr/openxr-pcvr/tutorials/unreal-engine/integrate-hand-tracking-data-your-hand-model/)  to setup up your project
+## Ensure that your project is compatible with HTC’s hand-tracking guidelines
+Follow the instructions from the [vive unreal hand tracking guidelines](https://developer.vive.com/resources/openxr/openxr-pcvr/tutorials/unreal-engine/integrate-hand-tracking-data-your-hand-model/)  to setup up your project
 
 
 ## Enable OpenXR and OpenXRHandTracking plugins
 
-In unreal engine, under plugins, make sure that the openXR and that the openXRHandTracking is checked.
+In Unreal-Engine, under plugins, make sure that the openXR and that the openXRHandTracking is checked.
 ![plugin_folder](/assets/images/unreal_openXR_plugin_enabled.png)
 
-## Disable Oculus Reltated plugins and the SteamVR plugin
+## Disable Oculus Related plugins and the SteamVR plugin
 
-In unreal engine, under plugins, make sure that other non-openXR plugins are disabled.
+In Unreal-Engine, under plugins, make sure that other non-openXR plugins are disabled.
 ![plugin_folder](/assets/images/unreal_disableSteamVr.png)
 
-Make Sure you **disable** the **"SteamVR Plugin"**, otherwise the hand movemant will not be recognized correctly.
+Make Sure you **disable** the **"SteamVR Plugin"**, otherwise the hand movement will not be recognized correctly.
 {: .warning }
 
 ## Make sure that you PC-VR streaming is working correctly
@@ -47,10 +47,10 @@ On your pc open both SteamVR and Vive Business Streaming apps.
 Open the settings in the ["Vive Business Streaming"](https://developer.vive.com/resources/openxr/openxr-pcvr/tutorials/set-up-vbs-for-focus-3/) app.
 Under "Input" make sure "Hand tracking" checkbox is checked. ![plugin_folder](/assets/images/vive_streaming_hand_tracking.png)
 
-Hand Tracking must be enabled on VBS inorder to track finger motion.
+Hand Tracking must be enabled on VBS in order to track finger motion.
 {: .warning }
 
-## In SteamVR, make sure that openXR backend is set to SteamVR.
+## In SteamVR, make sure that the openXR backend is set to SteamVR.
 Open SteamVR settings.
 Under "OpenXR" make sure that your current OpenXR Runtime is set to SteamVR.
 ![plugin_folder](/assets/images/steamvr_uses_openxr_backend.png)
@@ -67,7 +67,7 @@ Restart the editor to enable the plugins.
 ## Create a new level
 File -> New Level -> Basic
 
-## Be sure to set the visablity of the plugins to True
+## Be sure to set the visibility of the plugins to True
 In the Content Browser window. Select settings and enable "Show Plugin Content"
 
 ## Drag the AR51 SDK Blueprint into the current level
@@ -78,17 +78,17 @@ From the "Content Browser" windows, select Plugins -> AR51SDK_OPENXR Content -> 
 
 ## Make sure your VrPawn object uses "stage tracking"
 Either create a new VRPawn object (using [these instructions](https://hub.vive.com/storage/docs/en-us/UnrealPlugin/VRPawn.html)) or edit the provided VRPawn Blueprint.
-Make sure that your tracking space is set to Stage ![tracking_set_to_stage](/assets/images/unreal_vrpawn_tracking_origin_set_to_stage.png)
+Make sure that your tracking space is set to “Stage” ![tracking_set_to_stage](/assets/images/unreal_vrpawn_tracking_origin_set_to_stage.png)
 
-If you do not set the tracking mode to stage, the skeleton will not appear on your body after once you restart the VR application.
+If you do not set the tracking mode to “Stage”, the skeleton will not appear on your body once you restart the VR application.
 {: .warning }
 
 ## In AR51 Blueprint, select "HtcVive" as the platform type
-From the Details pannel, under general, you should see the "Platform" field. Please select "HTC Vive"  ![select_platform_type](/assets/images/unreal_select_plaform_type_wave.png)
+From the Details panel, under “General”, you should see the "Platform" field. Please select "HTC Vive"  ![select_platform_type](/assets/images/unreal_select_plaform_type_wave.png)
 
 ## In a tethered deployment - enable "Start in VR"
 Before deploying to a tethered application (PC VR app), be sure that you project is set to start in VR.
-In Unreal engine, under "Project Settings" -> "Project Description" enable "Start in VR".
+In Unreal-Engine, under "Project Settings" -> "Project Description" enable "Start in VR".
 
 ![enable_start_in_VR](/assets/images/unreal_engine_start_in_VR.png)
 
@@ -97,9 +97,7 @@ In Unreal engine, under "Project Settings" -> "Project Description" enable "Star
 Make sure that AR51's system is running on the same local network as your device.
 {: .warning }
 
-You should see character move live ![character_waving](/assets/images/unreal_character_waving.png).
+You should see the character move in realtime ![character_waving](/assets/images/unreal_character_waving.png).
 
 ## On your first run, perform device calibration
 You should now perform [device calibration]({% link docs/System Calibration/Device_calibration.md %})  so that the character would position on your body.
-
-

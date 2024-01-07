@@ -23,7 +23,7 @@ This document contains best-practice instructions regarding how to position the 
 
 ## Pointers
 AR51's Mocap Unleashed system is a multi-camera optical system. 
-As an optical system, the system achieves the best result when the room is well lit 
+As an optical system, the system achieves the best result when the room is well-lit 
 and when the person is not occluded.
 To extract the correct pose, two cameras are sufficient.
 However, as more cameras observe a body part, the accuracy increases.
@@ -84,7 +84,7 @@ Once you are satisfied with the position and the orientation of the camera, lock
 ![oms_camera_feed](/assets/images/oms_camera_feed.png)
 
 ### Use the HQ (High Quality) option to view the image in full resolution
-To view the image in full resolution, open the oms and press on HQ (top right corner). 
+To view the image in full resolution, open the OMS and press HQ (top right corner). 
 Then, to open a camera, press on the camera icon in the bottom row.
 This will show a high-quality live feed (But low fps). 
 
@@ -93,7 +93,7 @@ Using HQ mode should only be used for setup purposes. Transmitting the HQ images
 
 ![oms_HQ](/assets/images/oms_HQ.png)
 
-The oms has a web-based interface. This means that you can open it on the go using a smartphone or a tablet.
+The OMS has a web-based interface. This means that you can open it on the go using a smartphone or a tablet.
 You can use the high-quality feed to tune the focus dial until the image looks sharp.
 
 ### Tune the focus dial on the cameras
@@ -104,11 +104,3 @@ An out-of-focus image can cause degradation in quality.
 {: .warning }
 
 ![oms_HQ](/assets/images/lens.png)
-
-
-
-
-
-
-
-

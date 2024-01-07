@@ -35,16 +35,16 @@ There should be a single dedicated game server (DGS) in the network.
 Set the Platform as a PC. Tick on the "Is Dedicated Game Server" box. inside the "Service Manager" component.
 
 ## Enable Unity to run in the background
-By default unity projects are paused when the are not the active window.
+By default unity project is paused when it is not the active window.
 Since this is not a preferred behavior for a server, the "run in background" option should be enabled.
 
 Project Settings -> Player tick the checkbox for "Run In Background".
 
-## Only game object in the "Water" layer are streamed
+## Only Game-Objects in the "Water" layer are streamed
 
-By default all game objects which belong to the "Water" layer are streamed.
+By default, all game objects which belong to the "Water" layer are streamed.
 
-If you wish the other object (beside the characters) are streamed to the OMS, make sure they are in the "Water" layer.
+If you wish the other objects (besides the characters) are streamed to the OMS, make sure they are in the "Water" layer.
 
 You can select which layers are rendered and shown in the OMS.
 
@@ -55,4 +55,3 @@ If you wish to change the layers which are rendered, change the values in the "r
 Open the OMS web application. Click on a camera to view the feed in the web-gui.
 
 You can enable the holograms by clicking on the button which is above the upper-right corner of the camera feed.
-

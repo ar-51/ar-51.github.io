@@ -26,13 +26,15 @@ Remember to disable **Support OpenGL ES3.2** under Android ->Build. Quest projec
 ## Ensure that your project is compatible with the Android guidelines
 Follow the instructions from the [unreal android guidelines](https://docs.unrealengine.com/5.0/en-US/how-to-set-up-android-sdk-and-ndk-for-your-unreal-engine-development-environment/)  to get setup up your project
 
-
 ## Download and extract Meta Unreal Plugins into the Plugins folder
 
 Download Meta's plugin from [meta unreal plugin](https://developer.oculus.com/downloads/package/unreal-engine-5-integration/). Extract the plugin into the project "Plugins" folder and restart the Unreal editor.
 
-## Try to deploy a simple level to your headset
+## Try to use "Meta XR Performance Window" to set the project with the recommanded settings
+It is recommanded to use "Meta XR Performance Window" and follow their suggestions.
+![meta_performance_window](/assets/images/unreal_meta_performance_window.png)
 
+## Try to deploy a simple level to your headset
 Try and build the project and deploy it to your headset.
 
 ## Download and extract AR51 Unreal Plugins into the Plugins folder

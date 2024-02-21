@@ -20,7 +20,7 @@ nav_order: 2
 ## Follow the "New Project" instructions from the Quest website
 Follow the instructions from the [quest website](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/)  to set up your project
 
-Remember to disable **Support OpenGL ES3.2** under Android ->Build. Quest projects will not work with that option ticked. Make sure to run the test under **"Meta XR Performance Window"** and select Mobile as your target platform. 
+Remember to disable **Support OpenGL ES3.2** under Android ->Build. Quest projects will not work with that option ticked. Make sure to run the test under **"Meta XR Performance Window"** and select Mobile as your target platform. Also Remember to package the project for oculus using the "Package for Meta Quest devices" option.
 {: .warning }
 
 ## Ensure that your project is compatible with the Android guidelines
@@ -33,6 +33,9 @@ Download Meta's plugin from [meta unreal plugin](https://developer.oculus.com/do
 ## Try to use "Meta XR Performance Window" to set the project with the recommanded settings
 It is recommanded to use "Meta XR Performance Window" and follow their suggestions.
 ![meta_performance_window](/assets/images/unreal_meta_performance_window.png)
+
+## Enable Packaging for Oculus devices
+In order to package the project for oculus enable the "Package for Meta Quest devices" option in the Unreal's Project Settings.
 
 ## Try to deploy a simple level to your headset
 Try and build the project and deploy it to your headset.

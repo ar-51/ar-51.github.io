@@ -28,6 +28,9 @@ Ensure that the cameras are directly linked to the server, as most routers or sw
 ### The AI-Server
 The AI-Server, the processing nucleus of the system, is outfitted with an **high-end NVIDIA graphics card**. To support the high bandwidth requirements of multiple camera inputs, the server includes **two PCI Express PCIe4 x4 ethernet extension cards**, each providing four 10Gbps ports, totaling eight ports to accommodate the connectivity for all cameras.
 
+Ensure that the AI-Server meets the requirements by reviewing the minimum specifications detailed on the provided page.
+{: .warning }
+
 ### Ultra-Low Latency - an On-Prem Solution
 With the high-speed capture and processing capabilities, the system achieves an ultra-low latency of **9ms**. This rapid response time is pivotal for real-time applications, ensuring that VR users and VFX artists can interact with and capture motion data seamlessly. 
 

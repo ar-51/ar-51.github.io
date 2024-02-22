@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Calibration Sphere & Light
-parent: Hardware Specs
-nav_order: 4
+parent: Hardware & Network Requirements
+nav_order: 5
 ---
 
 # Hardware Specifications for MoCap Unleashed - Calibration Sphere

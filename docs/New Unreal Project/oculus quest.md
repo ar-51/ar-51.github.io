@@ -23,6 +23,11 @@ Follow the instructions from the [quest website](https://developer.oculus.com/do
 Remember to disable **Support OpenGL ES3.2** under Android ->Build. Quest projects will not work with that option ticked. Make sure to run the test under **"Meta XR Performance Window"** and select Mobile as your target platform. Also Remember to package the project for oculus using the "Package for Meta Quest devices" option.
 {: .warning }
 
+## Remember to check the "Package for Meta Quest Devices" option.
+When you package your quest device do not forget to tick the "Package for Meta Quest Devices".
+Under "Android" -> "Advanced APK Packaging" -> "Package for Meta Quest Devices"
+![package_for_quest](/assets/images/unreal_package_for_meta_quest_devices.png)
+
 ## Ensure that your project is compatible with the Android guidelines
 Follow the instructions from the [unreal android guidelines](https://docs.unrealengine.com/5.0/en-US/how-to-set-up-android-sdk-and-ndk-for-your-unreal-engine-development-environment/)  to get setup up your project
 

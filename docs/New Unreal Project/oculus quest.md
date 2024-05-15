@@ -36,11 +36,11 @@ It is recommanded to use "Meta XR Performance Window" and follow their suggestio
 
 ## Remember to check the "Package for Meta Quest Devices" option.
 When you package your quest device do not forget to tick the "Package for Meta Quest Devices".
-Under "Android" -> "Advanced APK Packaging" -> "Package for Meta Quest Devices"
+Under **"Android" -> "Advanced APK Packaging" -> "Package for Meta Quest Devices"**
 ![package_for_quest](/assets/images/unreal_package_for_meta_quest_devices.png)
 
-If you see that your project tries to open as a "window" application inside the quest. 
-It is a good indication that you forgot to check this box.
+If you see that your project opens as a "window" application inside the quest,
+it is a good indication that you forgot to check this box.
 {: .warning }
 
 ## Try to deploy a simple level to your headset

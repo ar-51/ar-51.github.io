@@ -52,7 +52,7 @@ All components of the system must be linked to the same local network for proper
 ### Ensuring a High-Performance Network
 To maintain the system's integrity and its capacity for real-time operations, it is critical that all network connections are sufficiently robust to handle the data throughput demands of 10 Gigabit cameras. These cameras are directly connected to the server through a PCIe network card. It is also important to use high-quality network cables, specifically cat7 cables, or cat6a for shorter distances, to ensure optimal performance. 
 
-Using slow cables or those susceptible to interference can significantly impact the system's performance negatively.
+Using slow cables or those susceptible to interference can significantly impact the system's performance negatively. **If you decide to use CAT6a cables, ensure they are kept at a distance from power cables to avoid electrical interference, as CAT6a are unshielded and more susceptible.**
 {: .warning }
 
 ### Disabling Deep-Packet Inspection

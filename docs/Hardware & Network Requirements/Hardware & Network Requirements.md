@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hardware & Network Requirements
-nav_order: 9
+nav_order: 10
 has_children: true
 permalink: /docs/Hardware & Network Requirements
 ---

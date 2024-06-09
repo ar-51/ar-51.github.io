@@ -4,10 +4,11 @@ title: Ubuntu Installation
 nav_order: 3
 ---
 
-# Install Ubuntu - with AR51 pre-installed and configured
+# Installing Ubuntu with Pre-Configured AR51 Mocap Unleash
+
 {: .no_toc }
 
-Install Ubuntu OS on the computer - this varient has AR51 Moca unleash software already installed and configured.
+This guide covers installing the Ubuntu OS with AR51 Moca Unleash software already pre-installed and configured.
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,10 +39,6 @@ Make sure you have the pre-configured Ubuntu installation file downloaded.
 
 ## Complete the Installation
 1. Follow the remaining prompts to complete the installation process.
-2. Choose the pre-configured options to ensure all necessary software and dependencies are installed.
-
-## Verify the Installation
-Once the installation is complete, ensure the system is connected to the internet for any additional updates.
 
 ## Provide Remote Access for Testing
 1. We recommend using AnyDesk for remote access.

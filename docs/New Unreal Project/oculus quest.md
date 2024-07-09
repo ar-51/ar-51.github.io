@@ -48,7 +48,7 @@ Try and build the project and deploy it to your headset.
 
 ## Download and extract AR51 Unreal Plugins into the Plugins folder
 Your plugins folder should look like this:
-![plugin_folder](/assets/images/unreal_plugin_folder.png)
+![plugin_folder](/assets/images/unreal_plugin_folder_quest.png)
 Restart the editor to enable the plugin.
 
 ## Create a new level

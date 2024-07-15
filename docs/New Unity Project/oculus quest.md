@@ -51,8 +51,12 @@ From Assets/AR51.Unity.SDK/Prefabs drag the AR51.Unity.SDK prefab into the scene
 ## Select the target platform
 In the "Service Manager" component select "Oculus Quest" as the platform of your choice.
 
+![hand_tracking](/assets/images/unity_platform_oculus.png)
+
 ## Select the hand provider
 Select "OVR" as the hand provider in the "Service Manager" component.
+
+![hand_tracking](/assets/images/unity_platform_oculus.png)
 
 ## Set the world pivot
 The system automatically maps the coordinate system of every quest to a common coordinate system.

@@ -22,4 +22,4 @@ The sphere used for calibration is usually a ball of light or 30CM diameter [Lin
 When covering large areas a bigger sphere can also be used.
 
 ## Light Bulb
-The sphere should emit **a strong white light** at least 1800 Lumen.  
+The sphere should emit **a strong white light** at least 1800 Lumen [bulb example](https://www.amazon.com/Listed-6-Pack-100-Replacement-Daylight/dp/B0C9TYD7Y4?th=1).  

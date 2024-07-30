@@ -27,7 +27,7 @@ Make sure you have the pre-configured Ubuntu installation file downloaded.
 2. Ensure you have a USB drive or other media to install Ubuntu.
 3. If you do not have a usb-install:
    - Download our custom ubuntu 22 ISO from our files server.
-   - Use a sofware like ![etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
+   - Use a sofware like [etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
 
 ## Start the Installation Process
 1. Boot your computer from the installation media.

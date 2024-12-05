@@ -62,26 +62,41 @@ If the computer is not connected to the internet, it will not be able to get rec
 3. ![install 8 - enter network configuration.png](/assets/images/installation/install%208%20-%20enter%20network%20configuration.png)
 4. You will need to edit all interfaces that point to each camera (only once if you use a switch).
 5. ![install 9 - edit each network interface.png](/assets/images/installation/install%209%20-%20edit%20each%20network%20interface.png)
-6. For each interface
-   a. on the "identity" tag, set the MTU to 9000
+6. For each interface perform these two steps:
+7. On the "identity" tag, set the MTU to 9000
       ![install 10 - set the MTU.png](/assets/images/installation/install%2010%20-%20set%20the%20MTU.png)
-   b. ont eh IPV4 tag configure the IP and the subnet for each interface.
-      ![install 11 - set the ip and subnet.png](../assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
+8. On the IPV4 tag configure the IP and the subnet for each interface.
+      ![install 11 - set the ip and subnet.png](/assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
+
+9. Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
+{: .warning }
+
+10. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
+   The ip of the interface should be 169.254.X.1 where X is a running interface ID. The subnet should be 255.255.255.0
+
 Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
 {: .warning }
-7. The network configure can vary depending on the site constrains. Usually we recommend the following convention
-8. Once completed, to apply the changes disable and enable the interface.
+
+In most cases the interface that is connected to the internet (external network) should not be set.
+
+If you change the network interface that is pointing outside it may disable your internet connection.
+{: .warning }
+
+11. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon.
 2. Open the settings tab, and enter the provided license key,
-If you did not receive a license key, contact AR51 staff.
+
+3. If you did not receive a license key, contact AR51 staff.
 {: .warning }
 
 3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
 Each license is looked per machine. If you re-install the computer it might change the fingerprint.
 {: .warning }
+
 If the fingerprint does change, contact AR51 staff to re-activate your machine.
+
 
 ## Provide Remote Access for Testing
 1. We recommend using AnyDesk for remote access.

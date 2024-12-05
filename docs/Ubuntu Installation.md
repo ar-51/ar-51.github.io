@@ -51,7 +51,7 @@ If the computer is not connected to the internet, it will not be able to get rec
 ![install 5 - progress bar.png](/assets/images/installation/install%205%20-%20progress%20bar.png)
 2. Once the installation finishes, the computer will prompt a restart request. Approve it, and remove the ubuntu installation disk when prompted. 
 ![install 7 - on first login enter the password.png](/assets/images/installation/install%207%20-%20on%20first%20login%20enter%20the%20password.png)
-3. 
+
 ## First Login
 1. After the system boots, enter your user name and password to login.
 2. Once logged-in, you should see a terminal window. Enter your password to complete the installation process.
@@ -85,7 +85,8 @@ If you change the network interface that is pointing outside it may disable your
 9. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
-1. Open Mocap Unleashed app from the desktop icon.
+1. Open Mocap Unleashed app from the desktop icon "Start AR51..." .
+![install - Start AR51.png](../assets/images/installation/install%20-%20Start%20AR51.png)
 2. Open the settings tab, and enter the provided license key,
 ![install 12 - enter license.png](/assets/images/installation/install%2012%20-%20enter%20license.png)
 

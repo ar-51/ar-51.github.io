@@ -87,8 +87,9 @@ If you change the network interface that is pointing outside it may disable your
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon.
 2. Open the settings tab, and enter the provided license key,
+![install 12 - enter license.png](/assets/images/installation/install%2012%20-%20enter%20license.png)
 
-3. If you did not receive a license key, contact AR51 staff.
+If you did not receive a license key, contact AR51 staff.
 {: .warning }
 
 3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
@@ -96,7 +97,7 @@ Each license is looked per machine. If you re-install the computer it might chan
 {: .warning }
 
 If the fingerprint does change, contact AR51 staff to re-activate your machine.
-
+![install 13 - fingerprint warning.png](/assets/images/installation/install%2013%20-%20fingerprint%20warning.png)
 
 ## Provide Remote Access for Testing
 1. We recommend using AnyDesk for remote access.

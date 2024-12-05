@@ -22,6 +22,10 @@ By default, every device has its own coordinate system.\
 {:toc}
 
 ## Open the AR51 management system in a browser
+Type the OMS/Server IP in the browser url. 
+For example, if the server ip is 10.0.0.11 enter it and press Enter.
+![device calibration - open browser.png](/assets/images/device%20calibration%20-%20open%20browser.png)
+
 Using the web interface you can monitor the system and activated the calibration process.
 
 ![oms](/assets/images/oms.png)

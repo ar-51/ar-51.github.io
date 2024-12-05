@@ -67,19 +67,20 @@ If the computer is not connected to the internet, it will not be able to get rec
       ![install 10 - set the MTU.png](/assets/images/installation/install%2010%20-%20set%20the%20MTU.png)
    b. ont eh IPV4 tag configure the IP and the subnet for each interface.
       ![install 11 - set the ip and subnet.png](../assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
-{: .warning }
 Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
+{: .warning }
 7. The network configure can vary depending on the site constrains. Usually we recommend the following convention
 8. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon.
 2. Open the settings tab, and enter the provided license key,
-{: .warning }
 If you did not receive a license key, contact AR51 staff.
-3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
 {: .warning }
+
+3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
 Each license is looked per machine. If you re-install the computer it might change the fingerprint.
+{: .warning }
 If the fingerprint does change, contact AR51 staff to re-activate your machine.
 
 ## Provide Remote Access for Testing

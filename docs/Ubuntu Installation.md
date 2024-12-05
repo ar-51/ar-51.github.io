@@ -59,19 +59,19 @@ If the computer is not connected to the internet, it will not be able to get rec
 ## Configure the Network Interfaces
 1. You should set the ip, and subnet of all the network interfaces that are connected to the cameras.
 2. First, open network interface settings by clicking on the network icon on the top left corner.
-3. ![install 8 - enter network configuration.png](/assets/images/installation/install%208%20-%20enter%20network%20configuration.png)
-4. You will need to edit all interfaces that point to each camera (only once if you use a switch).
-5. ![install 9 - edit each network interface.png](/assets/images/installation/install%209%20-%20edit%20each%20network%20interface.png)
-6. For each interface perform these two steps:
-7. On the "identity" tag, set the MTU to 9000
+   ![install 8 - enter network configuration.png](/assets/images/installation/install%208%20-%20enter%20network%20configuration.png)
+3. You will need to edit all interfaces that point to each camera (only once if you use a switch)
+   ![install 9 - edit each network interface.png](/assets/images/installation/install%209%20-%20edit%20each%20network%20interface.png)
+4. For each interface perform these two steps:
+5. On the "identity" tag, set the MTU to 9000
       ![install 10 - set the MTU.png](/assets/images/installation/install%2010%20-%20set%20the%20MTU.png)
-8. On the IPV4 tag configure the IP and the subnet for each interface.
+6. On the IPV4 tag configure the IP and the subnet for each interface.
       ![install 11 - set the ip and subnet.png](/assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
 
-9. Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
+7. Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
 {: .warning }
 
-10. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
+8. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
    The ip of the interface should be 169.254.X.1 where X is a running interface ID. The subnet should be 255.255.255.0
 
 Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
@@ -82,7 +82,7 @@ In most cases the interface that is connected to the internet (external network)
 If you change the network interface that is pointing outside it may disable your internet connection.
 {: .warning }
 
-11. Once completed, to apply the changes disable and enable the interface.
+9. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon.

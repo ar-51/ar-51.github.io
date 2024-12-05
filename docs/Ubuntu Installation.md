@@ -32,7 +32,7 @@ Make sure you have the pre-configured Ubuntu installation file downloaded.
 ## Start the Installation Process
 1. Boot your computer from the installation media. Then, choose "Try or Install Ubuntu"
 ![install 1 - choose try or install.png](/assets/images/installation/install%201%20-%20choose%20try%20or%20install.png)
-2. Once the installation loads, choose "install AR51".
+2. Once the installation loads, choose "Install AR51".
 ![install 2 - choose install.png](/assets/images/installation/install%202%20-%20choose%20install.png)
 
 ## Configure Installation Options
@@ -49,7 +49,7 @@ If the computer is not connected to the internet, it will not be able to get rec
 ## Complete the Installation
 1. Follow the remaining prompts to complete the installation process.
 ![install 5 - progress bar.png](/assets/images/installation/install%205%20-%20progress%20bar.png)
-2. Once the installation finishes, the computer will prompb a restart request. Approve it, and remove the ubuntu installation disk when prompted. 
+2. Once the installation finishes, the computer will prompt a restart request. Approve it, and remove the ubuntu installation disk when prompted. 
 ![install 7 - on first login enter the password.png](/assets/images/installation/install%207%20-%20on%20first%20login%20enter%20the%20password.png)
 3. 
 ## First Login
@@ -69,7 +69,8 @@ If the computer is not connected to the internet, it will not be able to get rec
       ![install 11 - set the ip and subnet.png](../assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
 {: .warning }
 Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
-7. Once completed, to apply the changes disable and enable the interface.
+7. The network configure can vary depending on the site constrains. Usually we recommend the following convention
+8. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon.
@@ -78,7 +79,7 @@ Do not configure a default gateway for these cameras. The camera should be in a 
 If you did not receive a license key, contact AR51 staff.
 3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
 {: .warning }
-Each licsense is looked per machine. If you re-install the computer it might change the fingerprint.
+Each license is looked per machine. If you re-install the computer it might change the fingerprint.
 If the fingerprint does change, contact AR51 staff to re-activate your machine.
 
 ## Provide Remote Access for Testing

@@ -86,7 +86,7 @@ If you change the network interface that is pointing outside it may disable your
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon "Start AR51..." .
-![install - Start AR51.png](../assets/images/installation/install%20-%20Start%20AR51.png)
+![install - Start AR51.png](/assets/images/installation/install%20-%20Start%20AR51.png)
 2. Open the settings tab, and enter the provided license key,
 ![install 12 - enter license.png](/assets/images/installation/install%2012%20-%20enter%20license.png)
 

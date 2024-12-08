@@ -68,10 +68,7 @@ If the computer is not connected to the internet, it will not be able to get rec
 6. On the IPV4 tag configure the IP and the subnet for each interface.
       ![install 11 - set the ip and subnet.png](/assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
 
-7. Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
-{: .warning }
-
-8. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
+7. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
    The ip of the interface should be 169.254.X.1 where X is a running interface ID. The subnet should be 255.255.255.0
 
 Do not configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
@@ -82,7 +79,7 @@ In most cases the interface that is connected to the internet (external network)
 If you change the network interface that is pointing outside it may disable your internet connection.
 {: .warning }
 
-9. Once completed, to apply the changes disable and enable the interface.
+8. Once completed, to apply the changes disable and enable the interface.
 
 ## Set the license key and provide the machine signature
 1. Open Mocap Unleashed app from the desktop icon "Start AR51..." .

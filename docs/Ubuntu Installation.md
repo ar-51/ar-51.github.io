@@ -55,9 +55,9 @@ to install Ubuntu.
 3. Connect to the internet when asked so it can download updates.
 4. On the top left corner you should see a network icon. Make sure the computer is connected to the network before continue to the next step.
 ![install 3 - make sure the network is connected.png](/assets/images/installation/install%203%20-%20make%20sure%20the%20network%20is%20connected.png)
+
 If the computer is not connected to the internet, it will not be able to get recent updates. And some functionality may be hindered. 
 {: .warning }
-
 5. Make sure both "Download updates" and "Install third-party software..." options are checked. This ensures that necessary drivers and codecs are installed.
 ![install 4 - choose both download and third party graphics.png](/assets/images/installation/install%204%20-%20choose%20both%20download%20and%20third%20party%20graphics.png)
 6. Choose the appropriate option based on your setup:

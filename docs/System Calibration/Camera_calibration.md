@@ -17,8 +17,6 @@ The calibration has two steps:
 2. Lit calibration sphere detection.
 {: .fs-6 .fw-300 }
 
-
-
 ---
 ## Table of contents
 {: .no_toc .text-delta }
@@ -26,23 +24,29 @@ The calibration has two steps:
 1. TOC
 {:toc}
 
-## Open the AR51 management system in a browser
-Using the web interface you can monitor the system and activated the calibration process.
+## Open the AR-51 Management System in a Browser
+Using the web interface, you can monitor the system and activate the calibration process.
 
-![oms](/assets/images/oms.png)
+![oms](/assets/images/camera_calibration/1.oms.png)
 
 ## Camera check
-Check that all cameras appear and that the feed from each camera works.
+Check if all the  cameras appear and if that the feed from each camera works.
 {: .warning }
 
-Use can use the feed to check that all cameras are pointing to the capture area. \
-And, that there is good coverage of the area.
+Ensure all cameras are pointing to the capture area and there is good coverage.
 
 Poor coverage can lead to poor capture quality.
 {: .warning }
 
+You can use the feed to check that all cameras are pointing to the capture area. \
+And, that there is good coverage of the area.
+
+![2.camera_feed_check.png](/assets/images/camera_calibration/2.camera_feed_check.png)
+
 ## Place the provided calibration board
-Place the provided calibration board in the middle of the capture area and make sure that is fully visible by as many cameras as possible.
+Place the provided calibration board in the middle of the capture area.\
+Make sure the calibration board is fully visible to as many cameras as possible.
+![3calibration_board_placement.png](/assets/images/camera_calibration/3calibration_board_placement.png)
 
 ## Start the camera calibration
 
@@ -50,27 +54,37 @@ Place the provided calibration board in the middle of the capture area and make 
 The feed from the camera should reflect the various stages in the calibration process.
 
 ### Click on the “Start Cam Calibration” button
-Once the calibration board detection is completed the images in the camera feed will turn darker.
+1. Open Mocap Studio and navigate to the Calibration menu on the top left corner.
+2. Select "Start Calibration" to activate the calibration process.
 
-![start camera calibration](/assets/images/start_camera_calibration.png)
+![4.start_cam_calibration.png](/assets/images/camera_calibration/4.start_cam_calibration.png)
+
+Once the calibration board detection is completed, the images in the camera feed will turn darker.
 
 ### Switch on the calibration sphere
 Once the feed goes dark, switch on the provided calibration sphere.
 
 Make sure your light bulb emits **a strong white light (at least 1800 lumen)**. Using yellow, warm light can result with a bad calibration score.
 {: .warning }
+![5.calibration_sphere](/assets/images/camera_calibration/5.calibration_sphere.png)
 
 ### Move around the room holding the calibration sphere
-Do not run while holding the sphere.\
- Make sure you move around the entire capture area.\
- Try to vary the height of the calibration sphere.\
- Variation in height means a better quality.
-{: .warning }
+1. Begin moving the calibration sphere around the room, covering as much ground as possible, including **varying heights and positions**. This helps in gathering a comprehensive set of data points.
+2. Be thorough and systematic. Cover all areas of the room, including corners and elevated spots.
+3. Frequently change the orientation of the calibration sphere to ensure diverse data points for better accuracy.
 
-Use the progress bar in the management system to monitor the progress of the calibration.
+#### Important Tips:
+1. Do not run while holding the sphere.
+2. Ensure you move around the entire capture area.
+3. Vary the height of the calibration sphere for better quality calibration.
 
 ## Monitor the progress in Mocap Studio
 
-You can use “Mocap Studio” to view the movement of the ball in 3D
+You can use “Mocap Studio” to view the movement of the ball in 3D. \
+Use the progress bar in the management system to monitor the progress of the calibration.
+![6.calib_sphere_path.gif](/assets/images/camera_calibration/6.calib_sphere_path.gif)
+![7.cam_view.gif](/assets/images/camera_calibration/7.cam_view.gif)
 
-Once the calibration is completed you can view the 3D avatars in “Mocap Studio”.
+## Validate in Mocap Studio
+Once the calibration is completed, you can view the 3D avatars in “Mocap Studio”.
+![8.calibration_done.png](/assets/images/camera_calibration/8.calibration_done.png)

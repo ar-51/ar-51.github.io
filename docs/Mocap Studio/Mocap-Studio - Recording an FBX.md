@@ -2,7 +2,7 @@
 layout: default
 title: Mocap-Studio - Recording an FBX
 parent: Mocap Studio
-nav_order: 1
+nav_order: 2
 ---
 
 # Mocap-Studio - Recording an FBX

@@ -10,5 +10,5 @@ permalink: /docs/Mocap Studio
 Calibrate the system & devices.
 {: .fs-6 .fw-300 }
 
-![puzzle](/assets/images/puzzle.png)
+![puzzle](/assets/images/mocap_studio_load.png)
 

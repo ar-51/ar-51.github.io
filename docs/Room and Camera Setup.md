@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Room & Camera Setup 
+title: Best Practices for Room Setup 
 nav_order: 2
 ---
 
-# Room & Camera Setup 
+# Best Practices for Room Setup 
 {: .no_toc }
 
 This document contains best-practice instructions regarding how to position the cameras
@@ -22,13 +22,11 @@ This document contains best-practice instructions regarding how to position the 
 
 
 ## Pointers
-AR51's Mocap Unleashed system is a multi-camera optical system. 
-As an optical system, the system achieves the best result when the room is well-lit 
-and when the person is not occluded.
-To extract the correct pose, two cameras are sufficient.
-However, as more cameras observe a body part, the accuracy increases.
-This becomes even more critical in challenging scenarios when occlusions occur often
-(occlusions by another person, self-made occlusions, or by objects).
+AR51’s Mocap Unleashed system is a multi-camera optical system. 
+As an optical system, the system achieves the best result when the room is well-lit and when the person is not occluded. 
+To extract the correct pose, two cameras are sufficient. 
+However, as more cameras observe a body part, the accuracy increases. 
+This becomes even more critical in challenging scenarios when occlusions occur often (occlusions by another person, self-made occlusions, or by objects).
 
 ## Best practice 
 ### The room should be well-lit with diffused light
@@ -37,18 +35,18 @@ The system works best when the room is:
 * Lit using diffused lighting.
 * Spotlighting is minimized. 
 
-Spotlighting creates hard shadows and can cause dead areas in the image due to over-exposure regions.
+Spotlighting creates hard shadows and can cause dead areas in the image due to overexposure regions.
 
 A dark room can cause degradation in quality.
 {: .warning }
 
-### Cover your area of interest
-There are no strict rules for camera placement; they can be unevenly distributed in the room.
+### Optimize Coverage in Your Area of Interest
+There are no strict rules for camera placement; they can be unevenly distributed in the room. 
 For enhanced accuracy in specific areas, deploy more cameras in those regions.
 
 ### Recommended setting of a 6x6 space 
 
-For a standard system of 6m by 6m, we recommend:
+For a standard system of 6m by 6m (20 feet by 20 feet), we recommend:
 * Use **8 cameras** placed at heights between **2.5m to 3m**.
 * Position **2 cameras at each corner**.
 * Place each camera approximately **0.7 meter from the corner**.
@@ -56,23 +54,24 @@ For a standard system of 6m by 6m, we recommend:
 
 
 ### Diverse Viewing Angles
-* Avoid redundant information by placing cameras at different spots and angles.
-* Lack of diversity in viewing angles can lead to degraded image quality.
+* Placing cameras in the same spot offers no benefit. Position them at different locations and angles for better coverage and accuracy.
+*Lack of diversity in viewing angles can lead to degraded image quality.
 
 A setup with a lack of diversity in viewing angles can cause degradation in quality.
 {: .warning }
 
 ### Minimize Dead Space
 * Position cameras to avoid capturing excessive ceiling space.
-* Avoid pointing cameras directly at the ceiling or floor to minimize dead space. 
+* Avoid pointing cameras directly at the ceiling or floor to minimize dead space.
+
 
 Placing a camera on the ceiling and pointing it straight down is not recommended.
 {: .warning }
 
 ### Reduce camera tilt 
-* Try to reduce camera tilt as much as possible. 
+* Keep cameras as parallel to the ground as possible to maintain image quality. 
 
-Severe camera tilt can result in reduced image quality.
+Severe camera tilt, even when cameras are placed on a truss or small platform, can result in reduced quality.
 {: .warning }
 
 ## Use Live-Feed from OMS to get a feedback

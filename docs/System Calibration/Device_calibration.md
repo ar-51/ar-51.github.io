@@ -21,7 +21,8 @@ By default, every device has its own coordinate system.\
 1. TOC
 {:toc}
 
-## Open the AR51 management system in a browser
+## Open the AR51 Management System in a Browser
+Using the system web interface, you can monitor the system and activate the calibration process.
 Type the OMS/Server IP in the browser url. 
 For example, if the server ip is 10.0.0.11 enter it and press Enter.
 ![device calibration - open browser.png](/assets/images/device%20calibration%20-%20open%20browser.png)
@@ -49,12 +50,12 @@ It is best if your hands are in front, between chest and head high.
 
 ### Move slowly across the capture area while moving your hands
 
-Do not wave your hands too fast. Move them in a relaxed speed. \
+Do not wave your hands too fast. Move them at a relaxed speed. \
 Moving too fast can produce poor calibration quality.
 {: .warning }
 
 ### Character should "snap" onto your body (in VR)
-You should see the character “snaps” into place after a short while. 
+You should see the character “snap” into place after a short while. 
 This does not mean the calibration is over. 
 You should still move around the capture area to improve the calibration.
 

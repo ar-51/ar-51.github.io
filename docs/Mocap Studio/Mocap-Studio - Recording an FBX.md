@@ -78,7 +78,5 @@ Click "Save" to complete the export.
 ![7.Export_button.png](/assets/images/record_with_mocap_studio/7.Export_button.png)
 
 ## View the recording in a 3D editor
-You can view the recoding in a 3D software of your choice (i.e. Blender, Maya)
-![8.maya.gif](/assets/images/record_with_mocap_studio/8.maya.gif)
-## Done
 You can open the animation in a 3D program of your choice (i.e. Maya, Blender).
+![8.maya.gif](/assets/images/record_with_mocap_studio/8.maya.gif)

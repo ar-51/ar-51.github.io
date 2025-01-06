@@ -24,6 +24,7 @@ Downloading the Pre-Configured Ubuntu Installation File
 1. Access the AR51 Files Page:
 2. Open your web browser and navigate to [https://files.ar-51.com](https://files.ar-51.com)
 3. Locate the Ubuntu Installation File.
+![install download ubuntu-ar51](/assets/images/installation/ubunut_on_website.png)
 4. Click the download link for the installation fil and save the file to a location on your computer.
 
 

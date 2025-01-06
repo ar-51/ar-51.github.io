@@ -42,7 +42,7 @@ When mocap studio is not in the same local network it will fail to comunicate wi
 ## Open Mocap Studio and Check for Connectivity
 ### Launch Mocap Studio:
 1. Open the Mocap Studio application.
-2. In the upper right corner, ensure that the two indicators are green. This signals that Mocap Studio has found both the management unit (CVS) and the Mocap System (CVS) in its local network.
+2. In the upper right corner, ensure that the two indicators are green. This signals that Mocap Studio has found both the management unit (OMS) and the Mocap System (CVS) in its local network.
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
 
 ## Record the animation 
@@ -50,6 +50,7 @@ When mocap studio is not in the same local network it will fail to comunicate wi
 1. Click on the “record” button located in the bottom right corner to begin the recording.
 ![2. Click on record.png](/assets/images/record_with_mocap_studio/2. Click on record.png)
 2. Provide a name for the current session.
+
 ![3.Provide_a_name](/assets/images/record_with_mocap_studio/3.Provide_a_name.png)
 
 ### Perform Animation:
@@ -59,17 +60,20 @@ When mocap studio is not in the same local network it will fail to comunicate wi
 
 ### Stop Recording:
 Click again on the record button to stop the current recording session.
+
 ![4.Stop_recording.png](/assets/images/record_with_mocap_studio/4.Stop_recording.png)
 
 ## Rename the Recording
 1. Access the Captures List by locating the new recording file in the captures list
 2. To rename the capture, Click on the rename option and enter a descriptive name for the recording. For example, name it "tutorial." 
+
 ![5.Rename_recording.png](/assets/images/record_with_mocap_studio/5.Rename_recording.png)
 
 ## Export the Recording
 Click on the export button. Choose a folder. Choose the file format (i.e. FBX).
 
 ![6.Export_button.png](/assets/images/record_with_mocap_studio/6.Export_button.png)
+
 Click "Save" to complete the export.
 
 ## Done

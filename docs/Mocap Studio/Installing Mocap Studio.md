@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Installiing Mocap-Studio
+title: Installing Mocap-Studio
 parent: Mocap Studio
 nav_order: 1
 ---

@@ -8,7 +8,7 @@ nav_order: 3
 
 {: .no_toc }
 
-This guide covers installing the Ubuntu OS with AR51 Moca Unleash software already pre-installed and configured.
+This guide covers installing the Ubuntu OS with AR51 Mocap Unleash software already pre-installed and configured.
 {: .fs-6 .fw-300 }
 
 ---
@@ -20,31 +20,54 @@ This guide covers installing the Ubuntu OS with AR51 Moca Unleash software alrea
 
 
 ## Prerequisites
-Make sure you have the pre-configured Ubuntu installation file downloaded.
+Downloading the Pre-Configured Ubuntu Installation File
+1. Access the AR51 Files Page:
+2. Open your web browser and navigate to [https://files.ar-51.com](https://files.ar-51.com)
+3. Locate the Ubuntu Installation File.
+4. Click the download link for the installation fil and save the file to a location on your computer.
+
 
 ## Prepare for Installation
-1. Connect the computer to the internet to download updates during the installation process.
-2. Ensure you have a USB drive or other media to install Ubuntu.
-3. If you do not have a usb-install:
-   - Download our custom ubuntu 22 ISO from our files server.
-   - Use a sofware like [etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
+### Create a Bootable USB Drive:
+Use a sofware like [etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
+
+### Ensure you have a USB drive or other media 
+to install Ubuntu.
+
+### Make sure the computer is connected to the internet
+ to download updates during the installation process.
+
 
 ## Start the Installation Process
-1. Boot your computer from the installation media. Then, choose "Try or Install Ubuntu"
+### Step-by-Step Guide:
+1. Insert the USB drive or installation media into the computer.
+2. Boot your computer from the installation media.
+3. After the system boots for the new media, choose "Try or Install Ubuntu"
 ![install 1 - choose try or install.png](/assets/images/installation/install%201%20-%20choose%20try%20or%20install.png)
-2. Once the installation loads, choose "Install AR51".
+4. Once the installation loads, choose "Install AR51".
 ![install 2 - choose install.png](/assets/images/installation/install%202%20-%20choose%20install.png)
 
 ## Configure Installation Options
 1. When prompted, select "Install Ubuntu."
-2. Connect to the internet when asked so it can download updates.
-3. On the top left corner you should see a network icon. Make sure the computer is connected to the network before continue to the next step.
+2. Choose Your Preferred Language
+![install 2 - choose lang.png](/assets/images/installation/ichoose_lang.png)
+3. Connect to the internet when asked so it can download updates.
+4. On the top left corner you should see a network icon. Make sure the computer is connected to the network before continue to the next step.
 ![install 3 - make sure the network is connected.png](/assets/images/installation/install%203%20-%20make%20sure%20the%20network%20is%20connected.png)
 If the computer is not connected to the internet, it will not be able to get recent updates. And some functionality may be hindered. 
 {: .warning }
 
-4. Make sure both "Download updates" and "Install third-party software..." options are checked. This ensures that necessary drivers and codecs are installed.
+5. Make sure both "Download updates" and "Install third-party software..." options are checked. This ensures that necessary drivers and codecs are installed.
 ![install 4 - choose both download and third party graphics.png](/assets/images/installation/install%204%20-%20choose%20both%20download%20and%20third%20party%20graphics.png)
+6. Choose the appropriate option based on your setup:
+    1. If using a clean disk, select "Erase disk and install Ubuntu."
+    2. If creating a partition, select "Something else" and configure your partitions accordingly.
+![install 5 - choose disk install type](/assets/images/installation/install_type.png)
+7. Select your location to set the time zone and click "Continue."
+![install 6 - choose time zone](/assets/images/installation/time_zone.png)
+8. Enter your name, the computer's name, and create a secure password.
+Click "Continue."
+![install 6 - choose time zone](/assets/images/installation/user.png)
 
 ## Complete the Installation
 1. Follow the remaining prompts to complete the installation process.

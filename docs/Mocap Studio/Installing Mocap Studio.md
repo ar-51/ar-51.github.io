@@ -21,7 +21,7 @@ This guide covers installing AR51’s MoCap Studio on windows or on linux.
 
 
 ## Prerequisites
-###Download MoCap Studio
+### Download MoCap Studio
 1. Access the AR51 Files Page:
 2. Open your web browser and navigate to [https://files.ar-51.com](https://files.ar-51.com)
 3. Locate the latest version of Mocap Studio available for download.

@@ -26,6 +26,9 @@ To perform device calibration you need to enter the web-based management system 
 You can find the ip on the server’s GUI top left corner.
 ![1.finding_oms_ip.png](/assets/images/device_calibration/1.finding_oms_ip.png)
 
+Note that the ip displayed in the image "192.168.0.197" is probably different from yours.
+{: .warning }
+
 ## Open the AR51 Management System in a Browser
 Enter the IP of the server in your browser.
 Using the web interface, you can monitor the system and activate the calibration process.

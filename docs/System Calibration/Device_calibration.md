@@ -31,9 +31,10 @@ Enter the IP of the server in your browser.
 Using the web interface, you can monitor the system and activate the calibration process.
 ![2.open_browser.png](/assets/images/device_calibration/2.open_browser.png)
 
-## Open an application on a device that has the AR51 SDK
-Developer apps are usually located under “unknown sources” inside the oculus quest
+## Inside VR: Open an application on a device that has the AR51 SDK
+In Oculus Quest, "Developer apps" are usually located under “unknown sources” inside the oculus quest
 ![3.unkown_sources_quest.gif](/assets/images/device_calibration/3.unkown_sources_quest.gif)
+
 Once the app is open on the device, you should see the device on the devices panel.
 
 ## Select your device on the AR51’s web-based management system and start calibration

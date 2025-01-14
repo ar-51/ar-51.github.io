@@ -24,6 +24,9 @@ The calibration has two steps:
 1. TOC
 {:toc}
 
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fDImBCKoWb0" frameborder="0" allowfullscreen></iframe>
+
 ## Open the AR-51 Management System in a Browser
 Using the web interface, you can monitor the system and activate the calibration process.
 

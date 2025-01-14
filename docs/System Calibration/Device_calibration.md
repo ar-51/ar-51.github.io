@@ -20,33 +20,36 @@ By default, every device has its own coordinate system.\
 
 1. TOC
 {:toc}
+## Locate the server IP 
+To perform device calibration you need to enter the web-based management system of the server.
+
+You can find the ip on the server’s GUI top left corner.
+![1.finding_oms_ip.png](/assets/images/device_calibration/1.finding_oms_ip.png)
 
 ## Open the AR51 Management System in a Browser
-Using the system web interface, you can monitor the system and activate the calibration process.
-Type the OMS/Server IP in the browser url. 
-For example, if the server ip is 10.0.0.11 enter it and press Enter.
-![device calibration - open browser.png](/assets/images/device%20calibration%20-%20open%20browser.png)
+Enter the IP of the server in your browser.
+Using the web interface, you can monitor the system and activate the calibration process.
+![2.open_browser.png](/assets/images/device_calibration/2.open_browser.png)
 
-Using the web interface you can monitor the system and activated the calibration process.
+## Open an application on a device that has the AR51 SDK
+Developer apps are usually located under “unknown sources” inside the oculus quest
+![3.unkown_sources_quest.gif](/assets/images/device_calibration/3.unkown_sources_quest.gif)
+Once the app is open on the device, you should see the device on the devices panel.
 
-![oms](/assets/images/oms.png)
+## Select your device on the AR51’s web-based management system and start calibration
+1. Select the device you wish to calibrate from the device panel.
+2. You should see a blue box that indicates that the device was selected.
+3. Press the **“Device Calibration”** button in the management system.
 
-### Open an application on a device that has the AR51 SDK 
-Once the app is open on the device, you should see the device on the devices panel. 
+![4.device_calibration_selected.png](/assets/images/device_calibration/4.device_calibration_selected.png)
 
-## Select a device and start calibration
-Select the device you wish to calibrate from the device panel. \
-You should see a blue box that indicates that the device was selected.
-
-Press the “Device Calibration” button in the management system.
-
-![device calibration](/assets/images/device_calibration_selected.png)
 
 ## Calibrate the device
 
-### While in the VR application, lift both your hands so they are fully visible to the device's cameras
+### While in the VR application, lift both your hands so they are fully visible to the device’s cameras
 The VR device should see your hands.
 It is best if your hands are in front, between chest and head high.
+![5.device_calibration_hands.gif](/assets/images/device_calibration/5.device_calibration_hands.gif)
 
 ### Move slowly across the capture area while moving your hands
 
@@ -54,9 +57,11 @@ Do not wave your hands too fast. Move them at a relaxed speed. \
 Moving too fast can produce poor calibration quality.
 {: .warning }
 
+![6.device_calibration_screen.gif](/assets/images/device_calibration/6.device_calibration_screen.gif)
+
 ### Character should "snap" onto your body (in VR)
 You should see the character “snap” into place after a short while. 
 This does not mean the calibration is over. 
 You should still move around the capture area to improve the calibration.
+![7.device_calibration_within_quest.gif](/assets/images/device_calibration/7.device_calibration_within_quest.gif)
 
-### You can monitor the progress in the management system

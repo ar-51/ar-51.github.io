@@ -21,7 +21,7 @@ Use Mocap-Studio to record the movement of the people inside the scene.
 {:toc}
 
 
-<iframe width="560" height="315" src="https://youtu.be/HKpiEfGotZ8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HKpiEfGotZ8" frameborder="0" allowfullscreen></iframe>
 
 ## Introduction
 This guide provides detailed instructions on how to use the AR-51 Mocap Studio as an Emulator.
@@ -68,7 +68,7 @@ Open a new Mocap Studio and Load a File:
 5. Once loaded you should see an animation playing inside Mocap Studio
 
 ## Emulator is Active. Check status on another client 
-<iframe width="560" height="315" src="https://youtu.be/EDgn7kPi5Rw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=EDgn7kPi5Rw" frameborder="0" allowfullscreen></iframe>
 
 * At this point "Mocap Studio" is acting as a system emulator. 
 * At this mode, it is sending skeleton to all other client that are connected to the same local network.

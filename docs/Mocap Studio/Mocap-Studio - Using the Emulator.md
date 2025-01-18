@@ -47,10 +47,12 @@ On the top right corner, you will see two indicators:
 1. *OMS (Operating Management System)*: Detects components within the local network.
 2. *CVS (Computer Vision Service)*: Streams skeleton information and object detection.
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
 ### Ensure OMS is Active
 * If the OMS indicator is green, it means OMS is already active
 * If it not is gray, double-click the icon. A prompt will notify you to start a new OMS. Select "Yes" to activate it.
-### Ensure the CVS i Active
+
+### Ensure the CVS is Active
 1. Make sure that the CVS in indicator is gray
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
 2. Double-click the CVS icon.

@@ -33,9 +33,9 @@ Follow the instructions below to ensure a successful recording, visualization, a
 
 ## Prerequisites
 * Make sure Mocap Studio is installed on a computer.
-* Ensure the computer is connected to the same network as the Mocap system.
+* Ensure the computer is connected to the same network as the Mocap system.  
 
-When mocap studio is not in the same local network it will fail to comunicate with AR51's mocap server.
+When mocap studio is not in the same local network it will fail to communicate with AR51's mocap server.
 {: .warning }
 
 

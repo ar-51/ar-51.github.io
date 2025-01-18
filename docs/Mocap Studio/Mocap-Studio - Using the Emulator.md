@@ -71,11 +71,12 @@ Open a new Mocap Studio and Load a File:
 4. You should see a process bar for the loading process
 5. Once loaded you should see an animation playing inside Mocap Studio
 
-## Emulator is Active. Check status on another client 
+## Emulator is Active
+### Check Status on A Second Client 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EDgn7kPi5Rw?si=n-yRnJSeP_Jw6086" frameborder="0" allowfullscreen></iframe>
 
 * At this point "Mocap Studio" is acting as a system emulator. 
-* At this mode, it is sending skeleton to all other client that are connected to the same local network.
+* At this mode, it is streaming mocap recordings to all other client that are connected to the same local network.
 * To view the mocap broadcast, you can use another client.
 * The client can be the same machine or a different one.
 * Here is a partial list of supported clients:

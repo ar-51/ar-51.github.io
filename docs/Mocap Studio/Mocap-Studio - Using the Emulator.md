@@ -55,6 +55,7 @@ On the top right corner, you will see two indicators:
 ### Ensure the CVS is Active
 1. Make sure that the CVS in indicator is gray
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
 2. Double-click the CVS icon.
 3. Confirm by clicking "OK" to start a new CVS instance.
 If the indicator is already green, this means that another computer is currently the active CVS. You should find the second CVS and close it before activating a new CVS.
@@ -64,6 +65,7 @@ If the indicator is already green, this means that another computer is currently
 Open a new Mocap Studio and Load a File:
 1. Click the file import button.
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
 2. The system should open a new window.
 3. Locate your pre-recorded file (*.gr51) and load it.
 4. You should see a process bar for the loading process
@@ -96,6 +98,7 @@ Use the time slider to navigate through the recorded animation.
 ### Recording Panel, Playback and Export
 1. You can use Mocap-Studio Record function to record a subset of original animation file.
 ![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
 2. After you recorded the original gr51 again you should see a second animation on the animation panel
 3. This new animation should have the export icon enabled (not grayed out).
 4. You can press on the export icon to export the animation.

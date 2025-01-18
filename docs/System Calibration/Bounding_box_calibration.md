@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Bounding Box Calibration
+title: Defining the Active Area - Bounding Box Calibration
 parent: System Calibration
 nav_order: 2
 ---
 
-# Bounding-Box Calibration in Mocap Studio
+# Define Your Active Region Using Bounding-Box Calibration in Mocap Studio
 {: .no_toc }
 
 Bounding box calibration is used to define the capture area within which motion is recorded. This ensures that the system focuses on a specific space, optimizing performance and accuracy by ignoring irrelevant movements outside this area. 
@@ -45,6 +45,11 @@ You can set the bounds in two ways:
 1. By writing the numerical values inside the panel.
 2. By dragging the bounds manually using the left mouse button, in the main panel.
 ![mocap studio set bounds](/assets/images/4.3BoundingBoxCalibration/3set_center_and_dimensions.png)
+	* **SHIFT + mouse** :To move wall symetrically. 
+	* **CTRL + mouse** : To make the increments as multiplication of 10cm.
+	* You can only drag the bounding wall that is facing you.
+If you are not able to drag your desired bounding box wall, try rotating the camera so this wall is closest to you.
+{: .warning }
 
 ## Send the bounding box to the server
 Sending the bounding box data to the server saves the current bounds setting on the server.

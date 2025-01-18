@@ -31,9 +31,8 @@ The guide covers starting mocap studio, activating OMS and CVS, and loading anim
 
 ## Prerequisites
 * Make sure Mocap Studio is installed on a computer.
-* Make sure you have a GR51 motion file available.
+* Make sure you have a GR51 motion file available [running recording](/assets/gr51/running_take001_2023-10-19_17-16-32_2023-10-19_17-16-47.gr51), [clapping recording](/assets/gr51/Bclapping003_2023-10-19_13-56-23_2023-10-19_13-56-32.gr51).
 * Ensure that the client computer is connected to the same network as the Mocap Studio.
-
 When mocap studio is not in the same local network it will fail to communicate with AR51's mocap server.
 {: .warning }
 

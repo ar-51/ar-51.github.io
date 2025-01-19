@@ -68,6 +68,7 @@ If the indicator is already green, this means that another computer is currently
 ### Loading a pre-recorded animation 
 Open a new Mocap Studio and Load a File:
 1. Click the file import button.
+
 ![4.file_import.png](/assets/images/mocap_studio_emulator/4.file_import.png)
 
 2. The system should open a new window.

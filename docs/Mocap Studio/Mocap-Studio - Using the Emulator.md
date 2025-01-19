@@ -56,10 +56,8 @@ On the top right corner, you will see two indicators:
 ![3.are_you_sure_oms.png](/assets/images/mocap_studio_emulator/3.are_you_sure_oms.png)
 
 ### Ensure the CVS is Active
-1. Make sure that the CVS in indicator is gray
-
+1. Make sure that the CVS in indicator is gray <br>
 ![2.connectivity_connected.png](/assets/images/mocap_studio_emulator/2.connectivity_connected.png)
-
 2. Double-click the CVS icon.
 3. Confirm by clicking "OK" to start a new CVS instance.
 If the indicator is already green, this means that another computer is currently the active CVS. You should find the second CVS and close it before activating a new CVS.
@@ -67,15 +65,11 @@ If the indicator is already green, this means that another computer is currently
 
 ### Loading a pre-recorded animation 
 Open a new Mocap Studio and Load a File:
-1. Click the file import button.
-
+1. Click the file import button.  <br>
 ![4.file_import.png](/assets/images/mocap_studio_emulator/4.file_import.png)
-
 2. The system should open a new window.
-3. Locate your pre-recorded file (*.gr51) and load it.
-
+3. Locate your pre-recorded file (*.gr51) and load it.  <br>
 ![5.choose_file_windows.png](/assets/images/mocap_studio_emulator/5.choose_file_windows.png)
-
 4. You should see a process bar for the loading process
 5. Once loaded you should see an animation playing inside Mocap Studio
 
@@ -105,10 +99,8 @@ Note, any change in the emulator's content is propagated to all other clients in
 Use the time slider to navigate through the recorded animation.
 
 ### Recording Panel, Playback and Export
-1. You can use Mocap-Studio Record function to record a subset of original animation file.
-
+1. You can use Mocap-Studio Record function to record a subset of original animation file.  <br>
 ![7.mocap_resize.gif](/assets/images/mocap_studio_emulator/7.mocap_resize.gif)
-
 2. After you recorded the original gr51 again you should see a second animation on the animation panel
 3. This new animation should have the export icon enabled (not grayed out).
 4. You can press on the export icon to export the animation.

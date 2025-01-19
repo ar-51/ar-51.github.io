@@ -31,9 +31,9 @@ The guide covers starting mocap studio, activating OMS and CVS, and loading anim
 
 ## Prerequisites
 * Make sure Mocap Studio is installed on a computer.
-* Make sure you have a GR51 motion file available [running recording](/assets/gr51/running_take001_2023-10-19_17-16-32_2023-10-19_17-16-47.gr51), [clapping recording](/assets/gr51/Bclapping003_2023-10-19_13-56-23_2023-10-19_13-56-32.gr51).
+* Make sure you have a GR51 motion file available [running.gr51](/assets/gr51/running_take001_2023-10-19_17-16-32_2023-10-19_17-16-47.gr51), [clapping.gr51](/assets/gr51/Bclapping003_2023-10-19_13-56-23_2023-10-19_13-56-32.gr51).
 * Ensure that the client computer is connected to the same network as the Mocap Studio.
-When mocap studio is not in the same local network it will fail to communicate with AR51's mocap server.
+When mocap studio is *not* in the same local network it will fail to communicate with AR51's mocap server.
 {: .warning }
 
 
@@ -46,15 +46,19 @@ When mocap studio is not in the same local network it will fail to communicate w
 On the top right corner, you will see two indicators: 
 1. *OMS (Operating Management System)*: Detects components within the local network.
 2. *CVS (Computer Vision Service)*: Streams skeleton information and object detection.
-![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
+![1.connectivity.png](/assets/images/mocap_studio_emulator/1.no_connectivity.png)
 
 ### Ensure OMS is Active
 * If the OMS indicator is green, it means OMS is already active
 * If it not is gray, double-click the icon. A prompt will notify you to start a new OMS. Select "Yes" to activate it.
 
+![3.are_you_sure_oms.png](/assets/images/mocap_studio_emulator/3.are_you_sure_oms.png)
+
 ### Ensure the CVS is Active
 1. Make sure that the CVS in indicator is gray
-![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
+![2.connectivity_connected.png](/assets/images/mocap_studio_emulator/2.connectivity_connected.png)
 
 2. Double-click the CVS icon.
 3. Confirm by clicking "OK" to start a new CVS instance.
@@ -64,10 +68,13 @@ If the indicator is already green, this means that another computer is currently
 ### Loading a pre-recorded animation 
 Open a new Mocap Studio and Load a File:
 1. Click the file import button.
-![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+![4.file_import.png](/assets/images/mocap_studio_emulator/4.file_import.png)
 
 2. The system should open a new window.
 3. Locate your pre-recorded file (*.gr51) and load it.
+
+![5.choose_file_windows.png](/assets/images/mocap_studio_emulator/5.choose_file_windows.png)
+
 4. You should see a process bar for the loading process
 5. Once loaded you should see an animation playing inside Mocap Studio
 
@@ -86,7 +93,7 @@ Open a new Mocap Studio and Load a File:
   4. Unreal Engine with AR51 SDK.
   5. A C++ client that is running AR51 SDK.
 
-![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+![6.mocap_studio_side_by_side.png](/assets/images/mocap_studio_emulator/6.mocap_studio_side_by_side.png)
 
 ## Controlling the Emulator
 ### Changing the content that is being broadcast
@@ -98,7 +105,8 @@ Use the time slider to navigate through the recorded animation.
 
 ### Recording Panel, Playback and Export
 1. You can use Mocap-Studio Record function to record a subset of original animation file.
-![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
+
+![7.mocap_resize.gif](/assets/images/mocap_studio_emulator/7.mocap_resize.gif)
 
 2. After you recorded the original gr51 again you should see a second animation on the animation panel
 3. This new animation should have the export icon enabled (not grayed out).

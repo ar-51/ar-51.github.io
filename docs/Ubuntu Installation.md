@@ -51,7 +51,7 @@ Ensure the computer is connected to the internet to download updates during the 
 ## Configure Installation Options
 1. When prompted, select "Install Ubuntu."
 2. Choose Your Preferred Language
-![install 2 - choose lang.png](/assets/images/installation/ichoose_lang.png)
+![install 2 - choose lang.png](/assets/images/installation/choose_lang.png)
 3. Connect to the internet when prompted to allow Ubuntu to download updates.
 4. In the top-left corner, you should see a network icon. Ensure the computer is connected to the network before proceeding to the next step.
 ![install 3 - make sure the network is connected.png](/assets/images/installation/install%203%20-%20make%20sure%20the%20network%20is%20connected.png)
@@ -89,7 +89,7 @@ Ensure the computer is connected to the internet to download updates during the 
 4. For each interface, complete the following steps:
 5. Under the **"Identity"** tab, set the **MTU** to **9000**.
       ![install 10 - set the MTU.png](/assets/images/installation/install%2010%20-%20set%20the%20MTU.png)
-6. Under the **"IPv4"** tab, configure the **IP address** and **subnet**.
+6. Under the **"IPv4"** tab, configure the IP **Address** and **Netmask**.
       ![install 11 - set the ip and subnet.png](/assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
 
 7. Network configuration may vary based on site constraints. We generally recommend the following convention:

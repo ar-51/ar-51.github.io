@@ -8,7 +8,7 @@ nav_order: 3
 
 {: .no_toc }
 
-This guide covers installing the Ubuntu OS with AR51 Mocap Unleash software already pre-installed and configured.
+This guide explains how to install the Ubuntu OS with the AR51 Mocap Unleash software pre-installed and configured.
 {: .fs-6 .fw-300 }
 
 ---
@@ -22,10 +22,10 @@ This guide covers installing the Ubuntu OS with AR51 Mocap Unleash software alre
 ## Prerequisites
 Downloading the Pre-Configured Ubuntu Installation File
 1. Access the AR51 Files Page:
-2. Open your web browser and navigate to [https://files.ar-51.com](https://files.ar-51.com)
+2. Open your web browser and go to [https://files.ar-51.com](https://files.ar-51.com)
 3. Locate the Ubuntu Installation File.
 ![install download ubuntu-ar51](/assets/images/installation/ubunut_on_website.png)
-4. Click the download link for the installation fil and save the file to a location on your computer.
+4. Click the download link for the installation file and save it to your computer.
 
 
 ## Prepare for Installation
@@ -33,97 +33,101 @@ Downloading the Pre-Configured Ubuntu Installation File
 Use a sofware like [etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
 
 ### Ensure you have a USB drive or other media 
-to install Ubuntu.
+Make sure you have a USB drive or another medium available for installing Ubuntu
 
 ### Make sure the computer is connected to the internet
- to download updates during the installation process.
+Ensure the computer is connected to the internet to download updates during the installation process.
 
 
 ## Start the Installation Process
 ### Step-by-Step Guide:
 1. Insert the USB drive or installation media into the computer.
 2. Boot your computer from the installation media.
-3. After the system boots for the new media, choose "Try or Install Ubuntu"
+3. Once the system boots from the media, select "Try or Install Ubuntu"
 ![install 1 - choose try or install.png](/assets/images/installation/install%201%20-%20choose%20try%20or%20install.png)
-4. Once the installation loads, choose "Install AR51".
+4. When the installation screen appears, select "Install AR51".
 ![install 2 - choose install.png](/assets/images/installation/install%202%20-%20choose%20install.png)
 
 ## Configure Installation Options
 1. When prompted, select "Install Ubuntu."
 2. Choose Your Preferred Language
 ![install 2 - choose lang.png](/assets/images/installation/ichoose_lang.png)
-3. Connect to the internet when asked so it can download updates.
-4. On the top left corner you should see a network icon. Make sure the computer is connected to the network before continue to the next step.
+3. Connect to the internet when prompted to allow Ubuntu to download updates.
+4. In the top-left corner, you should see a network icon. Ensure the computer is connected to the network before proceeding to the next step.
 ![install 3 - make sure the network is connected.png](/assets/images/installation/install%203%20-%20make%20sure%20the%20network%20is%20connected.png)
 
-If the computer is not connected to the internet, it will not be able to get recent updates. And some functionality may be hindered. 
+ If the computer is not connected to the internet, it will be unable to download updates, which may affect system functionality.
 {: .warning }
-5. Make sure both "Download updates" and "Install third-party software..." options are checked. This ensures that necessary drivers and codecs are installed.
+5. Check both "Download updates" and "Install third-party software..." to ensure the necessary drivers and codecs are installed.
 ![install 4 - choose both download and third party graphics.png](/assets/images/installation/install%204%20-%20choose%20both%20download%20and%20third%20party%20graphics.png)
-6. Choose the appropriate option based on your setup:
+6. Choose the appropriate installation type based on your setup:
     1. If using a clean disk, select "Erase disk and install Ubuntu."
-    2. If creating a partition, select "Something else" and configure your partitions accordingly.
+    2. If creating a custom partition, select "Something else" and configure your partitions accordingly.
 ![install 5 - choose disk install type](/assets/images/installation/install_type.png)
 7. Select your location to set the time zone and click "Continue."
 ![install 6 - choose time zone](/assets/images/installation/time_zone.png)
-8. Enter your name, the computer's name, and create a secure password.
-Click "Continue."
+8. Enter your name, computer name, and create a secure password. Then, click "Continue."
 ![install 6 - choose time zone](/assets/images/installation/user.png)
 
 ## Complete the Installation
-1. Follow the remaining prompts to complete the installation process.
+1. Follow the on-screen prompts to complete the installation process.
 ![install 5 - progress bar.png](/assets/images/installation/install%205%20-%20progress%20bar.png)
-2. Once the installation finishes, the computer will prompt a restart request. Approve it, and remove the ubuntu installation disk when prompted. 
+2. Once the installation is finished, the system will prompt you to restart. Approve the restart and remove the installation media when prompted. 
 ![install 7 - on first login enter the password.png](/assets/images/installation/install%207%20-%20on%20first%20login%20enter%20the%20password.png)
 
 ## First Login
-1. After the system boots, enter your user name and password to login.
-2. Once logged-in, you should see a terminal window. Enter your password to complete the installation process.
+1. After the system boots, enter your username and password to log in.
+2. Once logged in, a terminal window should appear. Enter your password when prompted to complete the installation process.
+3. When this process is done, you should see a change to the user wallpaper.
 
 ## Configure the Network Interfaces
-1. You should set the ip, and subnet of all the network interfaces that are connected to the cameras.
-2. First, open network interface settings by clicking on the network icon on the top left corner.
+1. Set the IP address and subnet for all network interfaces connected to the cameras.
+2. First, open the network interface settings by clicking on the network icon in the top-left corner.
    ![install 8 - enter network configuration.png](/assets/images/installation/install%208%20-%20enter%20network%20configuration.png)
-3. You will need to edit all interfaces that point to each camera (only once if you use a switch)
+3. Edit all interfaces that connect to cameras (only once if using a switch).
    ![install 9 - edit each network interface.png](/assets/images/installation/install%209%20-%20edit%20each%20network%20interface.png)
-4. For each interface perform these two steps:
-5. On the "identity" tag, set the MTU to **9000**
+4. For each interface, complete the following steps:
+5. Under the **"Identity"** tab, set the **MTU** to **9000**.
       ![install 10 - set the MTU.png](/assets/images/installation/install%2010%20-%20set%20the%20MTU.png)
-6. On the IPV4 tag configure the IP and the subnet for each interface.
+6. Under the **"IPv4"** tab, configure the **IP address** and **subnet**.
       ![install 11 - set the ip and subnet.png](/assets/images/installation/install%2011%20-%20set%20the%20ip%20and%20subnet.png)
 
-7. The network configure can vary depending on the site constrains. Usually we recommend the following convention:
-   The ip of the interface should be 169.254.X.1 where X is a running interface ID. The subnet should be 255.255.255.0
+7. Network configuration may vary based on site constraints. We generally recommend the following convention:
+   * The IP address should follow the format **169.254.X.1**, where **X** is a unique interface ID.
+   * The subnet should be **255.255.255.0** .
 
-**Do not** configure a default gateway for these cameras. The camera should be in a closed loop/closed network.
+**Do not** configure a default gateway for these cameras. The cameras should be in a closed-loop/isolated network.
 {: .warning }
 
-In most cases the interface that is connected to the internet (external network) should not be set.
+In most cases, the interface connected to the internet (external network) should remain unconfigured.
 
-If you change the network interface that is pointing outside it may disable your internet connection.
+Changing the network interface connected to the internet may disrupt your connection.
 {: .warning }
 
-8. Once completed, to apply the changes disable and enable the interface.
+8. Once completed, apply the changes by disabling and re-enabling the network interface.
+
 
 ## Set the license key and provide the machine signature
-1. Open Mocap Unleashed app from the desktop icon "Start AR51..." .
+1. Open the **Mocap Unleashed** application using the desktop icon **"Start AR51..."** .
 ![install - Start AR51.png](/assets/images/installation/install%20-%20Start%20AR51.png)
-2. Open the settings tab, and enter the provided license key,
+2. Navigate to the Settings tab and enter the provided license key.
 ![install 12 - enter license.png](/assets/images/installation/install%2012%20-%20enter%20license.png)
 
-If you did not receive a license key, contact AR51 staff.
+If you did not receive a license key, contact AR51 support.
 {: .warning }
 
-3. The system should now prompt the "machine fingerprint", report the fingerprint to AR51 staff.
-Each license is looked per machine. If you re-install the computer it might change the fingerprint.
+3. The system will display a **"Machine Fingerprint"**. Share this fingerprint with AR51 support.
+
+Each license is locked to a specific machine. If you reinstall the operating system, the fingerprint may change.
 {: .warning }
 
-If the fingerprint does change, contact AR51 staff to re-activate your machine.
-![install 13 - fingerprint warning.png](/assets/images/installation/install%2013%20-%20fingerprint%20warning.png)
+ If the fingerprint changes, contact AR51 support to reactivate your machine. 
+
+ ![install 13 - fingerprint warning.png](/assets/images/installation/install%2013%20-%20fingerprint%20warning.png)
 
 ## Provide Remote Access for Testing
-1. We recommend using AnyDesk for remote access.
-2. Provide the AnyDesk access code to your support representative.
+1. We recommend using **AnyDesk** for remote access.
+2. Provide the **AnyDesk access-code** to your support representative.
 
 ## Done
 Your pre-configured AR51 Ubuntu installation is complete. 

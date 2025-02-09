@@ -26,7 +26,7 @@ Replacing the filter allows you to:
 * Focus on capturing **near-IR wavelengths** by blocking visible light with an IR pass filter.
 
 ## Step-by-Step Filter Replacement Process
-<iframe width="560" height="315" src="https://youtu.be/JISiSYFnnIM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=JISiSYFnnIM" frameborder="0" allowfullscreen></iframe>
 
 ### Remove the Lens 
 Unscrew and safely remove the lens from the camera to expose the filter or sensor housing.

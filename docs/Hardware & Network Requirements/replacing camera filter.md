@@ -51,6 +51,7 @@ To block visible light and capture only **near-IR wavelengths**, install a **nea
 ### Reassemble the Camera
 * Carefully replace the camera’s outer shell and secure it by tightening the screws.
 * Reattach the lens by screwing it back into place.
+![3.Reassemble_the_Camera.png](/assets/images/replace_camera_filter/3.Reassemble_the_Camera.png)
 
 ## Additional Tips
 * **Ensure Compatibility**: Check that the new filter is compatible with your camera model. Incorrect filters may cause vignetting or performance issues.

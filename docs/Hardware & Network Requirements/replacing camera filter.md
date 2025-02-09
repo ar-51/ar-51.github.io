@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Replace a Filter in a Machine Vision Camera
+title: How to Replace an IR Filter in a color camera
 parent: Hardware & Network Requirements
 nav_order: 6
 ---
@@ -53,14 +53,9 @@ To block visible light and capture only **near-IR wavelengths**, install a **nea
 * Reattach the lens by screwing it back into place.
 
 ## Additional Tips
-### Ensure Compatibility
-Check that the new filter is compatible with your camera model. Incorrect filters may cause vignetting or performance issues.
-
-### Use Appropriate Tools
-Handle the camera and its components with tools designed for precision electronics to avoid damage.
-
-### Test the Camera Setup
-After replacing the filter, test the camera with your IR light source to confirm proper functionality. Adjust focus and other settings as needed.
+* **Ensure Compatibility**: Check that the new filter is compatible with your camera model. Incorrect filters may cause vignetting or performance issues.
+* **Use Appropriate Tools**: Handle the camera and its components with tools designed for precision electronics to avoid damage.
+* **Test the Camera Setup**: After replacing the filter, test the camera with your IR light source to confirm proper functionality. Adjust focus and other settings as needed.
 
 
 ## Summary

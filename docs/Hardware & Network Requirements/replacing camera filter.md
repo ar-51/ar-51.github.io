@@ -26,14 +26,19 @@ Replacing the filter allows you to:
 * Focus on capturing **near-IR wavelengths** by blocking visible light with an IR pass filter.
 
 ## Step-by-Step Filter Replacement Process
+<iframe width="560" height="315" src="https://youtu.be/JISiSYFnnIM" frameborder="0" allowfullscreen></iframe>
+
 ### Remove the Lens 
 Unscrew and safely remove the lens from the camera to expose the filter or sensor housing.
 
 ### Access the Camera’s Outer Shell
 Unscrew and carefully remove the outer casing of the camera. Keep the screws in a secure place to avoid losing them.
+![1.unscrew the camera case.png](/assets/images/replace_camera_filter/1.unscrew the camera case.png)
 
 ### Remove the Existing Filter
 Most color cameras come with a pre-installed *IR filter* that blocks infrared light while allowing visible light through.
+
+![2.remove_the_IR_filter.png](/assets/images/replace_camera_filter/2.remove_the_IR_filter.png)
 
 Gently detach this filter if you want the camera to capture both *near-IR* and *visible light*
 

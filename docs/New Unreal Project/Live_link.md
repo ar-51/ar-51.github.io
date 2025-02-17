@@ -99,14 +99,17 @@ Confirm that AR-51 SDK and Live Link plugins are available and activated.
 
 
 # Testing the Setup
+## Drag **AR 51 SDK Live Link Character** into the level
 1. Drag and drop the **AR 51 SDK Live Link Character** blueprint into your level.
 2. Reset its location to (0,0,0) to center it.
-3. Drag and drop the **AR 51 SDK** blueprint into your level.
-4. Reset its location to (0,0,0) to center it.
-5. Press **Play** to start the scene.
-6. Open the Live Link panel from **Window > Virtual Production > Live Link** if it's minimized.
-7. Ensure that **AR 51 Live Link** in the subject name list shows as connected.
-8. In the right-side attributes panel, ensure **Show Model** is enabled under **General**.
+## Drag **AR 51 SDK** into the level
+1. Drag and drop the **AR 51 SDK** blueprint into your level.
+2. Reset its location to (0,0,0) to center it.
+## Play and Examine the Live-Link connection.
+1. Press **Play** to start the scene.
+2. Open the Live Link panel from **Window > Virtual Production > Live Link** if it's minimized.
+3. Ensure that **AR 51 Live Link** in the subject name list shows as connected.
+4. In the right-side attributes panel, ensure **Show Model** is enabled under **General**.
 ![10.live_link_show_model.png](/assets/images/live_link_unreal/10.live_link_show_model.png)
 
 

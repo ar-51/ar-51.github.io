@@ -32,7 +32,7 @@ Confirm that AR-51 SDK and Live Link plugins are available and activated.
 
 ## Download and Install the Plugins
 ### Download the Plugins
-1. In your browser, navigate to [AR 51 Files](https://files.ar-51.com/) 
+1. In your browser, navigate to **AR Files Storage** [https://files.ar-51.com](https://files.ar-51.com/) 
 2. Download the **”AR51 Unreal SDK”** plugin. 
 3. Download the **'AR 51 SDK_Live Link'** plugin.
 ![1.download_live_link.png](/assets/images/live_link_unreal/1.download_live_link.png)

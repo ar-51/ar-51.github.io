@@ -69,12 +69,16 @@ Now that we have a new character available we need to make it available to the A
 1. Locate the **AR51SDK** blueprint within your level.
 2. Navigate to the Details tab and find the **SkeletonConsumer** Component.
 3. Under **"Character Blueprints"** create a new entry in the array if necessary, or replace an existing entry with the newly created character blueprint.
-4. Rearrange the order of the characters in the array by dragging the array entries. This changes the loading order. Note that entry 0 is the default load.
+4. Rearrange the order of the characters in the array by dragging the array entries. This changes the loading order. 
+Entry 0 defines the default character loaded by the SDK.
+{: .warning }
+
 ![7.Add_to_SkeletonConsumer.png](/assets/images/Unreal_Engine_Add_ a_new_Character/7.Add_to_SkeletonConsumer.png)
 
 # Play and test
-1. Press Play to start the scene.
-2. When a new person is detected by the system your new character should instansiate within the game. 
+1. Press **Play** to start the scene.
+2. The game should instantiate your new character when the system detects a new person.
+
 
 # Conclusion
 You've successfully added your character to the AR-51 SDK. 

@@ -2,7 +2,7 @@
 layout: default
 title: Mocap-Studio - Using the Emulator
 parent: Mocap Studio
-nav_order: 3
+nav_order: 4
 ---
 
 # Mocap-Studio - As a System Emulator

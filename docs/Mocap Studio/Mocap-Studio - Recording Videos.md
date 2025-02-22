@@ -64,6 +64,7 @@ To access your video recordings:
 ![6.find_folder.png](/assets/images/recording_a_video_with_mocap_studio/6.find_folder.png)
 4. In the recorded folder you should find .h264 videos along with the session meta data.
 5. If you wish to view the recorded video you can open .h264 files using a program like VNC.
+To do so, right click the file and select **"Open With VLC"**.
 ![7.open_with_vlc.png](/assets/images/recording_a_video_with_mocap_studio/7.open_with_vlc.png)
 
 ## Sharing Recorded Videos

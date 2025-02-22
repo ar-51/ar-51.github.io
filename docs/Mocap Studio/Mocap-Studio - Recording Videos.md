@@ -22,8 +22,13 @@ Use Mocap-Studio to record the videos on the server.
 
 
 ## Introduction
-This tutorial demonstrates how to record video using AR51’s Mocap Studio. By default, AR51’s Mocap System does not store video data from the scene. However, users have the option to enable video recording during their session.
-When video recording is enabled, the raw camera footage is stored locally on AR51’s server. These recordings are valuable for debugging and troubleshooting any unexpected system behavior. If issues arise, recorded videos can help the AR51 team analyze and resolve them efficiently.
+This tutorial demonstrates how to record video using AR51’s Mocap Studio. 
+<br>
+By default, AR51’s Mocap System **does not store video data** from the scene. 
+<br>However, users have the option to enable video recording during their session.
+
+When video recording is enabled, the raw camera footage is stored locally on AR51’s server. 
+These recordings are valuable for debugging and troubleshooting any unexpected system behavior. If issues arise, recorded videos can help the AR51 team analyze and resolve them efficiently.
 
 Note: The **FBX** file is saved locally on the machine running Mocap Studio, while recorded video files are always stored on **AR51’s server**.
 {: .warning }
@@ -38,7 +43,7 @@ If not, please refer to our setup guide before proceeding.
 1. **Launch Mocap Studio**.
 2. **Verify its connection to the server:** Check the top-left corner for two green indicator lights.
 
-![1.connectivity.png](/assets/images/mocap_studio_emulator/1.no_connectivity.png)
+![1.connectivity.png](/assets/images/record_with_mocap_studio/1.connectivity.png)
 
 3. **Enable Video Recording:** Before starting mocap data recording, click on the camera icon at the bottom of the interface. 
 When activated, video recording will occur alongside mocap data.

@@ -68,8 +68,13 @@ To do so, right click the file and select **"Open With VLC"**.
 ![7.open_with_vlc.png](/assets/images/recording_a_video_with_mocap_studio/7.open_with_vlc.png)
 
 ## Sharing Recorded Videos
-1. Locate the most recent recording, zip the file, and upload it to a cloud storage platform.
-2. Share the link with the AR51 team for analysis and troubleshooting.
+1. Locate the most recent recording. 
+2. Compress the folder.
+![8.compress.png](/assets/images/recording_a_video_with_mocap_studio/8.compress.png)
+3. Give the compressed file a name
+![8.compress_name.png](/assets/images/recording_a_video_with_mocap_studio/8.compress_name.png)
+4. Upload it to a cloud storage platform.
+5. Share the link with the AR51 team for analysis and troubleshooting.
 
 
 ## Summary

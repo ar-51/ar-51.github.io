@@ -56,7 +56,7 @@ When activated, video recording will occur alongside mocap data.
 
 5. **Name your Recording:** Provide a descriptive name for your current recording.
 
-![3.Provide_a_name.png](/assets/images/mocap_studio_emulator/3.Provide_a_name.png)
+![3.Provide_a_name.png](/assets/images/record_with_mocap_studio/3.Provide_a_name.png)
 
 6. **Perform your desired activity**: Move around and perfom your desired action you wish to record
 7. **Stop Recording:** Press the record button again to end the session.

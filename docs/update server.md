@@ -32,12 +32,13 @@ Download the required installation file from the provided link or source.
 ![2.right_click_file.png](/assets/images/server_update/2.right_click_file.png)
 
 * Navigate to the **Permissions** tab.
-* Check the box for **Allow executing the program as a file**.
+* Check the box for **Allow executing file as program**.
 ![3.add_execute_permissions.png](/assets/images/server_update/3.add_execute_permissions.png)
 
 ## Activate the Update
 
-Double-click the file to start the update process.
+Double-click the file (or right click and "Run") to start the update process.
+![10.run.png](/assets/images/server_update/10.run.png)
 
 ## Choose Installation Path
 * Select the desired installation path.

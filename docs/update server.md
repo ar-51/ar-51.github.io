@@ -49,7 +49,7 @@ Double-click the file (or right click and "Run") to start the update process.
 ## Locate the Previous Installation
 * Choose the path of the last installed version.
 * This will be used to copy the existing configurations and settings.
-* By default, the system will detect and use the latest installed version.
+* By default, the system will detect and import the settings from latest installed version.
 ![6.choose_the_last_install_path.png](/assets/images/server_update/6.choose_the_last_install_path.png)
 
 ## Retain Previous Versions

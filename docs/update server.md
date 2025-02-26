@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Server update
+title: Perform a Manual Update for AR51 Computer-Vision Server
 nav_order: 11
 ---
 

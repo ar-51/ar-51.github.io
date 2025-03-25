@@ -18,7 +18,8 @@ nav_order: 4
 
 
 ## Mocap Unleashed: Working with multiple PCs - Capturing a large area / Increased quality
-Mocap Unleashed stands as a markerless motion capture solution, leveraging RGB-based cameras and cutting-edge deep-learning algorithms to deliver real-time motion capture results. Our system processes data from 8 parallel GigE cameras, collectively generating 8.7 Gigapixels of data per second. This data is then meticulously handled by powerful GPUs. The substantial computational load demands high-end resources.
+Mocap Unleashed stands as a markerless motion capture solution, leveraging RGB-based cameras and cutting-edge deep-learning algorithms to deliver real-time motion capture results. 
+Our system processes data from 8 parallel GigE cameras for each Server, collectively generating 8.7 Gigapixels per server of data per second. This data is then meticulously handled by powerful GPUs. The substantial computational load demands high-end resources.
 
 The hardware specifications of AR 51's Mocap Unleashed system have undergone rigorous testing. It's crucial to emphasize that any compromise in the quality of components could significantly impair the system's performance and speed.
 

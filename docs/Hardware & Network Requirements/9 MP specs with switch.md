@@ -28,7 +28,7 @@ The switch can be placed close to the cameras, linking back to the PC via a sing
 
 
 ## PC Specification
-Make sure the **motherboard can support a **PCIe4 X8** network card and the GPU**: 
+Make sure the **motherboard can support a PCIe4 X8 network card and the GPU**: 
 <br> * Make sure there is a **free slots for PCIe extension card**.  4090/5080 cards are bulky make sure they do not block other slots. 
 <br> * make sure to **acquire two 100Gpbs QSFP28 modules** to the pca as well as for the switch  
 {: .warning }

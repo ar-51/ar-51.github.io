@@ -22,6 +22,8 @@ Mocap Unleashed stands as a markerless motion capture solution, leveraging RGB-b
 
 The hardware specifications of AR 51's Mocap Unleashed system have undergone rigorous testing. It's crucial to emphasize that any compromise in the quality of components could significantly impair the system's performance and speed.
 
+![1.Multi_PC_System_Diagram.jpg](/assets/images/Multi_PC_System_Diagram.jpg)
+
 Using a network switch simplifies wiring by connecting multiple cameras locally, eliminating the need to run individual cables directly to the PC. 
 The switch can be placed close to the cameras, linking back to the PC via a single fiber cable. 
 **This approach is especially beneficial for multi-PC configurations.**

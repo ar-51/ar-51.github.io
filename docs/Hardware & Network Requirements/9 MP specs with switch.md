@@ -5,7 +5,7 @@ parent: Hardware & Network Requirements
 nav_order: 4
 ---
 
-# Hardware Specifications for MoCap Unleashed - 9MP Camera system using a switch
+# Hardware Specifications for MoCap Unleashed - 9MP Camera - Multi PC setup
 {: .no_toc }
 
 ## Table of contents
@@ -21,6 +21,10 @@ nav_order: 4
 Mocap Unleashed stands as a markerless motion capture solution, leveraging RGB-based cameras and cutting-edge deep-learning algorithms to deliver real-time motion capture results. Our system processes data from 8 parallel GigE cameras, collectively generating 8.7 Gigapixels of data per second. This data is then meticulously handled by powerful GPUs. The substantial computational load demands high-end resources.
 
 The hardware specifications of AR 51's Mocap Unleashed system have undergone rigorous testing. It's crucial to emphasize that any compromise in the quality of components could significantly impair the system's performance and speed.
+
+Using a network switch simplifies wiring by connecting multiple cameras locally, eliminating the need to run individual cables directly to the PC. 
+The switch can be placed close to the cameras, linking back to the PC via a single fiber cable. 
+**This approach is especially beneficial for multi-PC configurations.**
 
 
 ## PC Specification

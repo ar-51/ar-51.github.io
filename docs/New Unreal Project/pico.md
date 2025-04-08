@@ -34,6 +34,7 @@ Confirm that AR-51 SDK and PicoXR plugins are available and activated.
 2. Download the **”AR51 Unreal SDK”** plugin. 
 3. Download the **'AR 51 SDK_Live Link'** plugin.
 ![1.download_live_link.png](/assets/images/pico_unreal/1.download_live_link.png)
+4. Download the [**PicoXR** Unreal plugin](https://developer.picoxr.com/resources/#sdk).
 
 ## Install the Plugin
 **Project-Specific Installation:**

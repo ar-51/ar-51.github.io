@@ -61,40 +61,40 @@ Confirm that AR-51 SDK and PicoXR plugins are available and activated.
 4. Ensure all **openXR** and **AR51 SDK** are enabled by checking their respective boxes.
 ![3.UE_plugins_window.png](/assets/images/pico_unreal/3.UE_plugins_disable_openxr.png)
 
-## Unreal Project Settings
+# Unreal Project Settings
 
-### Make sure the project is set using the [PICO development guidelines](https://developer.picoxr.com/document/unreal/configure-the-project/) 
+## Make sure the project is set using the [PICO development guidelines](https://developer.picoxr.com/document/unreal/configure-the-project/) 
 
-### Disable Mobile HDR
+## Disable Mobile HDR
 1. Go to the top menu and select **Edit**.
 2. Choose **Project Setings** .
 3. Under Engine - Rendering submenu VR find the option for "Mobile HDR" and disable it.
 ![4.disable_mobile_hdr.png](/assets/images/pico_unreal/4.disable_mobile_hdr.png)
 
-### Add Support for Vulkan and OpenGl
+## Add Support for Vulkan and OpenGl
 1. Go to the top menu and select **Edit**.
 2. Choose **Project Setings** .
 3. Under **Android** - "**build**" submenu, add support for Vulkan and OpenGl.
 ![11.vulcan_and_opengl.png](/assets/images/pico_unreal/11.vulcan_and_opengl.png)
 
-### Enable fullscreen in Kitkat
+## Enable fullscreen in Kitkat
 1. Go to the top menu and select **Edit**.
 2. Choose **Project Setings** .
 3. Under **Android** - "**build**" submenu, add support for Vulkan and OpenGl.
 ![10.fullscreen_android.awebp](/assets/images/pico_unreal/10.fullscreen_android.awebp)
 
-### Enable hands as a valid VR controller
+## Enable hands as a valid VR controller
 1. Go to the top menu and select **Edit**.
 2. Choose **Project Setings** .
 3. On the left table of content select Plugins and then PICOXR Settings
 4. Under HandTRacking Support, make sure either "Controllers and Hands" or "Hands Only" are selected.
 ![5.enable_hands.png](/assets/images/pico_unreal/5.enable_hands.png)
 
-### In a tethered deployment - enable “Start in VR”
+## In a tethered deployment - enable “Start in VR”
 Before deploying to a tethered application (PC VR app), be sure that you project is set to start in VR. In Unreal-Engine, under “Project Settings” -> “Project Description” enable “Start in VR”.
 ![enable_start_in_VR](/assets/images/unreal_engine_start_in_VR.png)
 
-
+# Set the New Level
 ## Create a New Unreal Level
 1. On the menu press on "File" => "New Level..."
 2. Select your desired level from the templates
@@ -125,7 +125,7 @@ Edit the provided VRPawn Blueprint. Make sure that your tracking space is set to
 ![8.set_stage_mode.png](/assets/images/pico_unreal/8.set_stage_mode.png)
 
 
-## Hit Play 
+# Hit Play 
 Make sure that AR51's system is running on the same local network as your device.
 {: .warning }
 

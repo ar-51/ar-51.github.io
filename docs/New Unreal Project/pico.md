@@ -64,13 +64,25 @@ Confirm that AR-51 SDK and PicoXR plugins are available and activated.
 
 ## Unreal Project Settings
 
-### Make sure the project is set using the [PICO development guidelines](https://developer.picoxr.com/document/unreal/about-sdk/) 
+### Make sure the project is set using the [PICO development guidelines](https://developer.picoxr.com/document/unreal/configure-the-project/) 
 
 ### Disable Mobile HDR
 1. Go to the top menu and select **Edit**.
 2. Choose **Project Setings** .
 3. Under Engine - Rendering submenu VR find the option for "Mobile HDR" and disable it.
 ![4.disable_mobile_hdr.png](/assets/images/pico_unreal/4.disable_mobile_hdr.png)
+
+### Add Support for Vulkan and OpenGl
+1. Go to the top menu and select **Edit**.
+2. Choose **Project Setings** .
+3. Under **Android** - "**build**" submenu, add support for Vulkan and OpenGl.
+![11.vulcan_and_opengl.png](/assets/images/pico_unreal/11.vulcan_and_opengl.png)
+
+### Enable fullscreen in Kitkat
+1. Go to the top menu and select **Edit**.
+2. Choose **Project Setings** .
+3. Under **Android** - "**build**" submenu, add support for Vulkan and OpenGl.
+![10.fullscreen_android.awebp](/assets/images/pico_unreal/10.fullscreen_android.awebp)
 
 ### Enable hands as a valid VR controller
 1. Go to the top menu and select **Edit**.

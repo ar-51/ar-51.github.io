@@ -100,6 +100,13 @@ Before deploying to a tethered application (PC VR app), be sure that you project
 2. Select your desired level from the templates
 ![5.new_level.png](/assets/images/pico_unreal/5.new_level.png)
 
+## Drag the AR51SDK blueprint into the current Level and zero it's transform
+1. In the Content Brwoser, navigate to Plugins/AR51SDK Content.
+![6.ar51sdk_blueprint.png](/assets/images/pico_unreal/6.ar51sdk_blueprint.png)
+2. Drag the **AR51SDK_Blueprint** into current level
+3. Zero the transform of AR51SDK_Blueprint
+
+
 ## Drag the neccessery blueprints into the current Level and zero it's transform
 1. In the Content Brwoser, navigate to Plugins/AR51SDK_PICO Content.
 ![6.PicoXR_pawn.png](/assets/images/pico_unreal/6.picoXR_pawn.png)

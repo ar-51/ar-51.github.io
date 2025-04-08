@@ -42,8 +42,8 @@ Confirm that AR-51 SDK and PicoXR plugins are available and activated.
 **Project-Specific Installation:**
 1. Navigate to your Unreal Engine project's root directory.
 2. If a **Plugins** folder does not exist, create one.
-3. Extract the content of the downloaded plugins into the Plugins folder.
 ![2.UE_plugins_folder.png](/assets/images/pico_unreal/2.UE_plugins_folder.png)
+3. Extract the content of the downloaded plugins into the Plugins folder.
 4. The Plugins folder should contains the three plugins: **AR51SDK**, **AR51SDK_PICO**, **PicoXR**
 ![2.picoPlugins.png](/assets/images/pico_unreal/2.picoPlugins.png)
 

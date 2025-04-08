@@ -42,7 +42,7 @@ Confirm that AR-51 SDK and PicoXR plugins are available and activated.
 3. Extract the content of the downloaded plugins into the Plugins folder.
 ![2.UE_plugins_folder.png](/assets/images/pico_unreal/2.UE_plugins_folder.png)
 4. The Plugins folder should contains the three plugins: AR51SDK, AR51SDK_Pico, PicoXR
-![2.picoPlugins.png](/assets/images/pico_unreal/2.picoPlugins.png.png)
+![2.picoPlugins.png](/assets/images/pico_unreal/2.picoPlugins.png)
 
 **Engine-Wide Installation:**
 1. Navigate to the Unreal Engine installation directory (e.g., **"C:\Program Files\Epic Games\UE_X.YY\Engine\Plugins\Marketplace\"**).

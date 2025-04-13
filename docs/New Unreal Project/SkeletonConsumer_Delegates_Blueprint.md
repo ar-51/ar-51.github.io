@@ -89,7 +89,7 @@ FOnPersonDestroyed OnPersonDestroyed;
 
 ---
 
-## 🎮 Active Person Management
+## Active Person Management
 
 ### `OnActivePersonChanged`
 Called when the person closest to the headset changes.
@@ -103,7 +103,7 @@ FOnActivePersonChanged OnActivePersonChanged;
 
 ---
 
-## 🔌 Component Lifecycle Events
+## Component Lifecycle Events
 
 ### `OnComponentActivated`
 Triggered when this component is activated.

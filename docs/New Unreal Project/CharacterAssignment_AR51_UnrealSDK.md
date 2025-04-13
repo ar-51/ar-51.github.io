@@ -95,7 +95,7 @@ _Example showing where to configure character mapping in the Details panel._
 
 ---
 
-### 🔧 Using Blueprints (Runtime Control)
+### Using Blueprints (Runtime Control)
 
 You can assign characters dynamically using Blueprint logic:
 

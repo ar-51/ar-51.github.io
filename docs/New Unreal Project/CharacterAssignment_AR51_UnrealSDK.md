@@ -46,11 +46,10 @@ In VR setups, the **Active Person** is automatically identified as the user clos
 
 This ensures **consistent character representation across all clients**, even in multiplayer or cross-platform setups.
 
-:::info  What is the Active Person?
+### What is the Active Person?
 The **Active Person** is the person currently wearing the VR headset tracked by the local system. This person is automatically detected by proximity to the camera or anchor.
 
 In multi-user VR scenarios, each device identifies its own Active Person and selects a character for them. This selection is then propagated to all connected devices via the `characterprefab` field in the skeleton data, ensuring synchronized identity and visual representation.
-:::
 
 ---
 

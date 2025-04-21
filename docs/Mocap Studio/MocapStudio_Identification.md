@@ -50,14 +50,14 @@ Once registered, entity labels will appear:
 ## Editing Entity Display Name
 Use can provide a display name for each persistant id.
 This can provide an easier way to recognize the identified person.
-This entity ID along with the display name is also shared and distributed to all client (i.e. unreal-engine, unity).
+This entity ID along with the display name is also shared and distributed to all clients (i.e. unreal-engine, unity).
 
 ### Option 1: Using Context Menu
 
 1. Right-click on a tracked character in the viewport.
 2. Click **Rename Entity Display Name**.
 
-![Edit Display Name and Forget Entity Context Menu](/assets/images/entity_id/Edit%20Display%20Name%20and%20Forget%20Entity%20Context%20Menu.png)
+![Edit Display Name and Forget Entity Context Menu](/assets/images/entity_id/Edit%20Display%20Name%20Context%20Menu.png)
 
 3. A dialog will prompt you to type a new display name.
 
@@ -81,7 +81,7 @@ This entity ID along with the display name is also shared and distributed to all
 1. Right-click the character in the viewport.
 2. Select **Forget Entity**.
 
-![Edit Display Name and Forget Entity Context Menu](/assets/images/entity_id/Edit%20Display%20Name%20and%20Forget%20Entity%20Context%20Menu.png)
+![Edit Display Name and Forget Entity Context Menu](/assets/images/entity_id/Forget%20Entity%20Context%20Menu.png)
 
 3. Confirm the action in the dialog:
 
@@ -115,5 +115,5 @@ To delete all saved entities:
 - Labels provide a reliable way to confirm identification in real time.
 - The system ensures that each entity retains their identity across multiple tracking sessions.
 
-Do not register the same person twice. Try to provide a single registration for each person. When a person has more than one registered entity, identification will not provide a coherent output.
+**Do not register the same person twice.** Try to provide a single registration for each person. When a person has more than one registered entity, identification will not provide a coherent output.
 {: .warning }

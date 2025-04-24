@@ -104,7 +104,7 @@ In most cases, the interface connected to the internet (external network) should
 Changing the network interface connected to the internet may disrupt your connection.
 {: .warning }
 
-8. Once completed, apply the changes by disabling and re-enabling the network interface.
+8. Once completed, **disable and re-enable** all network interfaces to make the changes take into effect.
 ![restart_network_interface.png](/assets/images/installation/restart_network_interface.png)
 
 

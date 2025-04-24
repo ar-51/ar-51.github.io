@@ -81,10 +81,10 @@ Ensure the computer is connected to the internet to download updates during the 
 3. When this process is done, you should see a change to the user wallpaper.
 
 ## Configure the Network Interfaces
-1. Set the IP address and subnet for all network interfaces connected to the cameras.
+1. Set the IP address and subnet for **all** network interfaces connected to the cameras.
 2. First, open the network interface settings by clicking on the network icon in the top-left corner.
    ![install 8 - enter network configuration.png](/assets/images/installation/install%208%20-%20enter%20network%20configuration.png)
-3. Edit all interfaces that connect to cameras (only once if using a switch).
+3. Edit **all** interfaces that connect to cameras (only once if using a switch).
    ![install 9 - edit each network interface.png](/assets/images/installation/install%209%20-%20edit%20each%20network%20interface.png)
 4. For each interface, complete the following steps:
 5. Under the **"Identity"** tab, set the **MTU** to **9000**.
@@ -105,6 +105,7 @@ Changing the network interface connected to the internet may disrupt your connec
 {: .warning }
 
 8. Once completed, apply the changes by disabling and re-enabling the network interface.
+![restart_network_interface.png](/assets/images/installation/restart_network_interface.png)
 
 
 ## Set the license key and provide the machine signature

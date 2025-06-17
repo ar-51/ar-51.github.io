@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: null
 title: 9MP Camera System
 parent: Hardware & Network Requirements
 nav_order: 3
+permalink: false
+published: false
 ---
 
 # Hardware Specifications for MoCap Unleashed - 9MP Camera system

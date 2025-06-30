@@ -8,7 +8,7 @@ nav_order: 5
 # Mocap-Studio - As a System Emulator
 {: .no_toc }
 
-Use Mocap-Studio to adminster the entity identification.
+Use Mocap-Studio to administer the entity identification.
 {: .fs-6 .fw-300 }
 
 
@@ -26,7 +26,11 @@ Use Mocap-Studio to adminster the entity identification.
 This guide explains how to use the **Identification** feature in AR 51's Mocap Studio. It covers how to register entities, view their persistent labels, and edit or forget entity identities using the main menu or the context menu.
 
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/61HklDkK35I" frameborder="0" allowfullscreen></iframe>
 
+## Prerequisites
+Make sure that "enable reid" option is enabled in the server settings.
+![Enable_ReId](/assets/images/entity_id/enable_reid_server.png)
 ## Starting the Entity Registration Process
 
 To begin entity registration, open the main menu and select:

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Character Assignment in AR 51
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 9
 ---
 

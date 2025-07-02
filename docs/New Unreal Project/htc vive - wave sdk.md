@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vive - Wave SDK
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 3
 ---
 

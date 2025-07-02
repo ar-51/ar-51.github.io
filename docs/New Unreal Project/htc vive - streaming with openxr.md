@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vive - Streaming With OpenXR
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 4
 ---
 

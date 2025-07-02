@@ -1,12 +1,12 @@
 ---
 layout: default
-title: New Unreal Project
+title: Unreal Plugin
 nav_order: 7
 has_children: true
-permalink: /docs/New Unreal Project
+permalink: /docs/Unreal Plugin
 ---
 
-# New Unreal Project
+# Unreal Plugin
 
 Set up a new unity project.
 {: .fs-6 .fw-300 }

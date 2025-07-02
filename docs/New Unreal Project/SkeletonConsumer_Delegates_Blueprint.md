@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  SkeletonConsumer - Multicast Delegate Reference
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 10
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Add a new Character to AR51’s Unreal SDK
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oculus Quest
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 2
 ---
 

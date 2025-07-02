@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Using AR51’s LiveLink Plugin
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 6
 ---
 

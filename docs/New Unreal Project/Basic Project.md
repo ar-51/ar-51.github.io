@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basic Project
-parent: New Unreal Project
+parent: Unreal Plugin
 nav_order: 1
 ---
 

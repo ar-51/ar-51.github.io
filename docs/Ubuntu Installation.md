@@ -80,6 +80,14 @@ Ensure the computer is connected to the internet to download updates during the 
 2. Once logged in, a terminal window should appear. Enter your password when prompted to complete the installation process.
 3. When this process is done, you should see a change to the user wallpaper.
 
+## When using Nvidia 50XX Series Graphics card
+1. Open the "Additional Drivers" application from the application menu.
+2. Select the Nvidia-driver-575-open from the list.
+   ![install 7.5 - select nvidia open driver.png](/assets/images/installation/nvidia_driver_575-open.png)
+3. Click "Apply Changes" to install the driver.
+4. Restart your computer to apply the changes.
+5. After restarting, open a terminal and run `nvidia-smi` to verify the driver installation.
+
 ## Configure the Network Interfaces
 1. Set the IP address and subnet for **all** network interfaces connected to the cameras.
 2. First, open the network interface settings by clicking on the network icon in the top-left corner.

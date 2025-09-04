@@ -5,23 +5,20 @@ parent: Network Setup
 nav_order: 2
 ---
 
-
 # Configure fs.com Switch
-
-{: .no\_toc }
+{: .no_toc }
 
 ## Table of contents
+{: .no_toc .text-delta }
 
-{: .no\_toc .text-delta }
+1. TOC
+{:toc}
 
-1. TOC 
-{\:toc}
+---
 
 ## Goal
 
 The goal of the steps below is to configure the switch so it will be able to upload **100G** to your server using the **SFP28 interface**.
-
----
 
 ## Steps Before Using the Switch
 

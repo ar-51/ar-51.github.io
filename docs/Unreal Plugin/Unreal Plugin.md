@@ -8,8 +8,8 @@ permalink: /docs/Unreal Plugin
 
 # Unreal Plugin
 
-Set up a new unity project.
+Setup and Configure AR51's Unreal Plugin.
 {: .fs-6 .fw-300 }
 
-![unity](/assets/images/unreal.jpg)
+![unreal](/assets/images/unreal.jpg)
 

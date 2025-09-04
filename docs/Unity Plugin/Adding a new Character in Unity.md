@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding a new Character in Unity
-parent: New Unity Project
+parent: Unity Plugin
 nav_order: 4
 ---
 

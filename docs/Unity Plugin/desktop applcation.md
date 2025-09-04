@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Desktop Application
-parent: New Unity Project
+parent: Unity Plugin
 nav_order: 1
 ---
 

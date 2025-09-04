@@ -1,7 +1,7 @@
 	---
 	layout: default
 	title: HTC Vive
-	parent: New Unity Project
+	parent: Unity Plugin
 	nav_order: 3
 	---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oculus Quest
-parent: New Unity Project
+parent: Unity Plugin
 nav_order: 2
 ---
 

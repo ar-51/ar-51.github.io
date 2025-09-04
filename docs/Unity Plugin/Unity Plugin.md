@@ -1,14 +1,13 @@
 ---
 layout: default
-title: New Unity Project
+title: Unity Plugin
 nav_order: 6
 has_children: true
-permalink: /docs/New Unity Project
+permalink: /docs/Unity Plugin
 ---
 
-# New Unity Project
-
-Set up a new unity project.
+# Unity Plugin
+Setup and Configure AR51's Unity Plugin.
 {: .fs-6 .fw-300 }
 
 ![unity](/assets/images/unity.png)

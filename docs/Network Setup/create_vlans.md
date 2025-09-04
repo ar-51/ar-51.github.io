@@ -52,8 +52,6 @@ Or, to switch them to different interface on the same computer.
 
 ![web_portal.png](/assets/images/network%20setup/vlan_creation/web_portal.png)
 
----
-
 ## Switch Configuration via Terminal
 
 ### Step 6: Open a Terminal
@@ -100,7 +98,7 @@ show vlan all
 ```
 
 ![vlan_commands_show.png](/assets/images/network%20setup/vlan_creation/vlan_commands_show.png)
----
+
 
 ## Summary
 

@@ -55,7 +55,6 @@ This way, the switch can work well with the existing 4 X 25G sfp pcie cards.
   - **Password:** admin
 
 ![web_portal.png](/assets/images/network%20setup/split_the_100g_interface/web_portal.png)
----
 
 ## Switch Configuration via Terminal
 

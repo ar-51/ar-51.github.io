@@ -2,7 +2,7 @@
 layout: default
 title: 5MP Camera System
 parent: Hardware & Network Requirements
-nav_order: 2
+nav_order: 1
 ---
 
 # Hardware Specifications for MoCap Unleashed - 5MP Camera system

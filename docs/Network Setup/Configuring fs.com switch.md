@@ -2,7 +2,7 @@
 layout: default
 title: Configuring fs.com Switch for 100G Connection parent: Hardware & Network Requirements nav\_order: 8
 parent: Network Setup
-nav_order: 3
+nav_order: 2
 ---
 
 

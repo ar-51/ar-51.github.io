@@ -2,7 +2,7 @@
 layout: default
 title: Multi PC setup - 9MP Camera System
 parent: Hardware & Network Requirements
-nav_order: 4
+nav_order: 2
 ---
 
 # Hardware Specifications for MoCap Unleashed - 9MP Camera - Multi PC setup

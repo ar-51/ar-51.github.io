@@ -2,7 +2,7 @@
 layout: default
 title: How to Replace an IR Filter in a color camera
 parent: Hardware & Network Requirements
-nav_order: 7
+nav_order: 5
 ---
 
 # Replacing/Removing the color camera IR filter 

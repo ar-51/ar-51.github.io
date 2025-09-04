@@ -31,7 +31,7 @@ The goal of the steps below is to configure the switch so it will be able to upl
 - Use an **ethernet cable** to connect your laptop directly to the switch.
 - The switch has a port marked **MGT (management)**. Connect the cable there and to your laptop.
 - Once configuration is done, this cable can be disconnected.
-![Management Port Screenshot](/assets/images/configure_the_switch/switch_managment_port.png)
+![Management Port Screenshot](/assets/images/network setup/configure_the_switch/switch_managment_port.png)
 
 ### Step 3: Set Laptop IP Address
 
@@ -49,7 +49,7 @@ The goal of the steps below is to configure the switch so it will be able to upl
   - **User:** admin
   - **Password:** admin
 
-![web_login_screen.png](/assets/images/configure_the_switch/web_login_screen.png)
+![web_login_screen.png](/assets/images/network setup/configure_the_switch/web_login_screen.png)
 
 ---
 
@@ -65,7 +65,7 @@ The goal of the steps below is to configure the switch so it will be able to upl
   ```
 - Password: **admin**
 
-![ssh.png](/assets/images/configure_the_switch/ssh.png)
+![ssh.png](/assets/images/network setup/configure_the_switch/ssh.png)
 
 ### Step 7: Identify the 100G Interfaces
 
@@ -107,7 +107,7 @@ reload
 - After reboot, login again to the **web interface**.
 - Ports should show a **color change**, indicating successful connection.
 
-![port_display.png](/assets/images/configure_the_switch/port_display.png)
+![port_display.png](/assets/images/network setup/configure_the_switch/port_display.png)
 
 ---
 

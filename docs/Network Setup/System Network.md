@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System Architecture Overview
-parent: Hardware & Network Requirements
+parent: Network Setup
 nav_order: 1
 ---
 

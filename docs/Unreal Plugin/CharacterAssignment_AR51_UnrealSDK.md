@@ -81,6 +81,7 @@ _Shows the dropdown used to choose the auto assignment strategy._
 ---
 
 ## Assigning Characters
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEXKRBM9_WU" frameborder="0" allowfullscreen></iframe>
 
 ### Using the Details Panel (Editor Setup)
 

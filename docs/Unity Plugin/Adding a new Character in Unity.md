@@ -23,7 +23,7 @@ The system supports any type of Unity-compatible Humanoid Character.
 
 ## Prerequisites
 Make sure the SDK is in the scene (drag the prefab).
-And that the [unity project is set up correctly]({% link docs/New Unity Project/New Unity Project.md %}).
+And that the [unity project is set up correctly]({% link docs/Unity Plugin/desktop application.md %}).
 
 
 ## Set prefab a Humanoid

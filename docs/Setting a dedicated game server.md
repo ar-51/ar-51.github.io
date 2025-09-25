@@ -1,57 +1,123 @@
----
-layout: default
-title: Stream 3D objects to the OMS as overlay
-nav_order: 9
----
+[//]: # (---)
 
+[//]: # ()
+[//]: # (layout: default)
 
-# Stream 3D objects to the OMS as overlay
-{: .no_toc }
+[//]: # ()
+[//]: # (title: Stream 3D objects to the OMS as overlay)
 
-The system can stream 3D content as an overlay from any of the cameras in the scene.
-This can be viewed from the OMS web interface.
-{: .fs-6 .fw-300 }
+[//]: # ()
+[//]: # (nav_order: 9)
 
+[//]: # ()
+[//]: # (---)
 
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (# Stream 3D objects to the OMS as overlay)
 
----
-## Table of contents
-{: .no_toc .text-delta }
+[//]: # ()
+[//]: # ({: .no_toc })
 
-1. TOC
-{:toc}
+[//]: # ()
+[//]: # ()
+[//]: # (The system can stream 3D content as an overlay from any of the cameras in the scene.)
 
+[//]: # ()
+[//]: # (This can be viewed from the OMS web interface.)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hOzdWpYH_m4" frameborder="0" allowfullscreen></iframe>
+[//]: # ()
+[//]: # ({: .fs-6 .fw-300 })
 
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (---)
 
-## Prerequisites
-Make sure the SDK is in the scene (drag the prefab).
+[//]: # ()
+[//]: # (## Table of contents)
 
-There should be a single dedicated game server (DGS) in the network.
+[//]: # ()
+[//]: # ({: .no_toc .text-delta })
 
+[//]: # ()
+[//]: # ()
+[//]: # (1. TOC)
 
-## Set Unity as DGS 
-Set the Platform as a PC. Tick on the "Is Dedicated Game Server" box. inside the "Service Manager" component.
+[//]: # ()
+[//]: # ({:toc})
 
-## Enable Unity to run in the background
-By default unity project is paused when it is not the active window.
-Since this is not a preferred behavior for a server, the "run in background" option should be enabled.
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (<iframe width="560" height="315" src="https://www.youtube.com/embed/hOzdWpYH_m4" frameborder="0" allowfullscreen></iframe>)
 
-Project Settings -> Player tick the checkbox for "Run In Background".
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (## Prerequisites)
 
-## Only Game-Objects in the "Water" layer are streamed
+[//]: # ()
+[//]: # (Make sure the SDK is in the scene &#40;drag the prefab&#41;.)
 
-By default, all game objects which belong to the "Water" layer are streamed.
+[//]: # ()
+[//]: # ()
+[//]: # (There should be a single dedicated game server &#40;DGS&#41; in the network.)
 
-If you wish the other objects (besides the characters) are streamed to the OMS, make sure they are in the "Water" layer.
+[//]: # ()
+[//]: # ()
+[//]: # ()
+[//]: # (## Set Unity as DGS )
 
-You can select which layers are rendered and shown in the OMS.
+[//]: # ()
+[//]: # (Set the Platform as a PC. Tick on the "Is Dedicated Game Server" box. inside the "Service Manager" component.)
 
-In the Unity SDK. Under the "Render Service" component, you can choose which layers should be rendered.
-If you wish to change the layers which are rendered, change the values in the "render Camera Culling Mask" field.
+[//]: # ()
+[//]: # ()
+[//]: # (## Enable Unity to run in the background)
 
-## Open the OMS web-gui and enable the hologram view for the camera
-Open the OMS web application. Click on a camera to view the feed in the web-gui.
+[//]: # ()
+[//]: # (By default unity project is paused when it is not the active window.)
 
-You can enable the holograms by clicking on the button which is above the upper-right corner of the camera feed.
+[//]: # ()
+[//]: # (Since this is not a preferred behavior for a server, the "run in background" option should be enabled.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (Project Settings -> Player tick the checkbox for "Run In Background".)
+
+[//]: # ()
+[//]: # ()
+[//]: # (## Only Game-Objects in the "Water" layer are streamed)
+
+[//]: # ()
+[//]: # ()
+[//]: # (By default, all game objects which belong to the "Water" layer are streamed.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (If you wish the other objects &#40;besides the characters&#41; are streamed to the OMS, make sure they are in the "Water" layer.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (You can select which layers are rendered and shown in the OMS.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (In the Unity SDK. Under the "Render Service" component, you can choose which layers should be rendered.)
+
+[//]: # ()
+[//]: # (If you wish to change the layers which are rendered, change the values in the "render Camera Culling Mask" field.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (## Open the OMS web-gui and enable the hologram view for the camera)
+
+[//]: # ()
+[//]: # (Open the OMS web application. Click on a camera to view the feed in the web-gui.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (You can enable the holograms by clicking on the button which is above the upper-right corner of the camera feed.)

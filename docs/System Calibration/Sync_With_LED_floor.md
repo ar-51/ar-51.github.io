@@ -29,7 +29,7 @@ Examples include:
 - Use your body to control the content that is displayed on the LED wall/floor.  
 - Ensuring the AR-51 origin is placed consistently in the same spot each time.  
 
-![led_stage_example.png](/assets/images/led_sync/led_stage_example.png)  
+![calibration board on stage.png](/assets/images/led_sync/calibration board on stage.png)  
 
 ---
 

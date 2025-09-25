@@ -26,9 +26,14 @@ Next, we will set up the bounding box to define the capture area boundaries. Pro
 
 
 ## VR Device Calibration
-Finally, we will calibrate the VR devices to ensure they are synchronized and functioning correctly within the capture environment. This includes:
+Here, we will calibrate the VR devices to ensure they are synchronized and functioning correctly within the capture environment. This includes:
 * Ensuring all devices agree on a common coordinate system
 * Moving and positioning your hands within the VR environment for accurate tracking
+
 ![mocap studio bounds validate](/assets/images/device_calibration/device_calibration_showroom.png)
 
+## LED Stage Synchronization
+Here, we will sync between an LED stage coordinate system and AR51's coordinate system by projecting the checkerboard pattern onto the LED floor.
+
+![calibration board on stage.png](/assets/images/led_sync/calibration board on stage.png)  
 

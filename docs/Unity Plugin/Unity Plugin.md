@@ -7,7 +7,8 @@ permalink: /docs/Unity Plugin
 ---
 
 # Unity Plugin
-Setup and Configure AR51's Unity Plugin.
+
+Set up AR51's Unity Plugin.
 {: .fs-6 .fw-300 }
 
 ![unity](/assets/images/unity.png)

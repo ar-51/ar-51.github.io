@@ -3,6 +3,7 @@ layout: default
 title: Configure VLANs for Multiple Cameras on fs.com Switch 
 parent: Network Setup 
 nav_order: 4
+description: "Guide to configuring VLANs on an fs.com switch so multiple cameras can be grouped and routed to dedicated servers or interfaces using isolated virtual networks."
 ---
 
 # Configure VLANs for Multiple Cameras on fs.com Switch

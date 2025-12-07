@@ -3,6 +3,7 @@ layout: default
 title: Configuring fs.com Switch for 100G Connection
 parent: Network Setup
 nav_order: 2
+description: "Step-by-step guide to configuring an fs.com switch to provide a 100G uplink using SFP28 interfaces, including port setup, SSH commands, and verification steps."
 ---
 
 # Configure fs.com Switch

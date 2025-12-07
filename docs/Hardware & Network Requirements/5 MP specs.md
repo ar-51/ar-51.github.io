@@ -3,6 +3,7 @@ layout: default
 title: 5MP Camera System
 parent: Hardware & Network Requirements
 nav_order: 1
+description: "Detailed hardware specifications for the 5MP MoCap Unleashed system, including CPU/GPU requirements, PCIe throughput needs, dual high-speed network cards, and motherboard compatibility."
 ---
 
 # Hardware Specifications for MoCap Unleashed - 5MP Camera system

@@ -3,6 +3,7 @@ layout: default
 title: Mocap-Studio - Biomechanical Visualization
 parent: Mocap Studio
 nav_order: 6
+description: "Detailed reference for Mocap Studio’s biomechanical visualization tools and CSV export, including joint angle displays, color settings, flags, and per-character CSV generation."
 ---
 
 # Biomechanical Visualization & CSV Export in Mocap Studio

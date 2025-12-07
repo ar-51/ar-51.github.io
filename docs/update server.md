@@ -2,6 +2,7 @@
 layout: default
 title: Perform a Manual Update for AR51 Computer-Vision Server
 nav_order: 12
+description: "Instructions for manually updating the AR51 Computer Vision Server while preserving existing settings, including file preparation, installer steps, version retention, and applying updates safely."
 ---
 
 

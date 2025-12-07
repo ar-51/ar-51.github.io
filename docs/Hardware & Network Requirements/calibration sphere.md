@@ -3,6 +3,7 @@ layout: default
 title: Calibration Sphere & Light
 parent: Hardware & Network Requirements
 nav_order: 4
+description: "Specifications for the calibration sphere and required light source, including recommended sphere size and minimum lumen output for accurate camera calibration."
 ---
 
 # Hardware Specifications for MoCap Unleashed - Calibration Sphere

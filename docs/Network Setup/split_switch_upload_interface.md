@@ -4,6 +4,7 @@
 title: Split the 100G upload interface into 4 X 25G on an fs.com switch
 parent: Network Setup 
 nav_order: 3
+description: "Instructions for splitting a switch’s 100G interface into four 25G ports using breakout cables and switch CLI commands to support multi-port PCIe network cards."
 ---
 # Split the 100G upload interface into 4 X 25G on an fs.com switch
 {: .no_toc }

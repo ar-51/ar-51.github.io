@@ -3,6 +3,7 @@ layout: default
 title: LED Stage Synchronization
 parent: System Calibration
 nav_order: 5
+description: "Instructions for synchronizing AR51’s coordinate system with LED walls or floors by projecting a calibration checkerboard, adjusting scale, and applying coordinate offsets for cross-system alignment."
 ---
 
 # LED Stage Synchronization

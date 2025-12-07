@@ -3,6 +3,7 @@ layout: default
 title: Camera Calibration
 parent: System Calibration
 nav_order: 1
+description: "Guide to calibrating AR51’s multi-camera system using the calibration board and lit sphere, ensuring accurate 3D reconstruction through proper coverage, sphere movement, and calibration validation."
 ---
 
 # Camera Calibration 

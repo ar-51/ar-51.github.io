@@ -3,6 +3,7 @@ layout: default
 title: Multi PC setup - 9MP Camera System
 parent: Hardware & Network Requirements
 nav_order: 2
+description: "Hardware requirements for running the 9MP MoCap Unleashed system across multiple PCs, covering 100Gbps networking, PCIe4 x8 constraints, GPU cooling considerations, and switch-based multi-server camera aggregation."
 ---
 
 # Hardware Specifications for MoCap Unleashed - 9MP Camera - Multi PC setup

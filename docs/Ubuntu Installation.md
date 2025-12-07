@@ -2,6 +2,7 @@
 layout: default
 title: Ubuntu Installation
 nav_order: 3
+description: "Step-by-step instructions for installing Ubuntu with AR51’s Mocap Unleash pre-configured system, covering bootable USB setup, installation workflow, network configuration, licensing, and NVIDIA driver setup."
 ---
 
 # Installing Ubuntu with Pre-Configured AR51 Mocap Unleash

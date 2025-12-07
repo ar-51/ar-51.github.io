@@ -3,6 +3,7 @@ layout: default
 title: Installing Mocap-Studio
 parent: Mocap Studio
 nav_order: 1
+description: "Step-by-step guide for installing AR51’s Mocap Studio on Windows or Linux, including prerequisites, installer instructions, and how to launch the application."
 ---
 
 # Installing Mocap Studio

@@ -3,6 +3,7 @@ layout: default
 title: Mocap-Studio - Entity Identification
 parent: Mocap Studio
 nav_order: 5
+description: "Guide to using Mocap Studio’s entity identification system to register, label, rename, and manage persistent identities across tracking sessions."
 ---
 
 # Mocap-Studio - As a System Emulator

@@ -3,6 +3,7 @@ layout: default
 title: How to Replace an IR Filter in a color camera
 parent: Hardware & Network Requirements
 nav_order: 5
+description: "Tutorial for removing or replacing the IR filter in a machine-vision camera, including safety precautions, installation steps, and using IR-pass filters for low-light or projector environments."
 ---
 
 # Replacing/Removing the color camera IR filter 

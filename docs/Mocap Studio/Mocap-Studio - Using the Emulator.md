@@ -3,6 +3,7 @@ layout: default
 title: Mocap-Studio - Using the Emulator
 parent: Mocap Studio
 nav_order: 4
+description: "Explains how to use Mocap Studio as a system emulator to stream recorded GR51 animations to clients, enabling development and testing without a live mocap system."
 ---
 
 # Mocap-Studio - As a System Emulator

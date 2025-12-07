@@ -3,6 +3,7 @@ layout: default
 title: Defining the Active Area - Bounding Box Calibration
 parent: System Calibration
 nav_order: 2
+description: "Explains how to define the active capture region using bounding-box calibration in Mocap Studio, including setting dimensions, sending bounds to the server, and validating the tracked area."
 ---
 
 # Define Your Active Region Using Bounding-Box Calibration in Mocap Studio

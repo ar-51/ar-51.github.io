@@ -2,6 +2,7 @@
 layout: default
 title: Best Practices for Room Setup 
 nav_order: 2
+description: "Best-practice guidelines for positioning cameras and preparing a room for AR51 Mocap Unleashed, including lighting, coverage strategy, viewing angles, and live-feed tuning."
 ---
 
 # Best Practices for Room Setup 

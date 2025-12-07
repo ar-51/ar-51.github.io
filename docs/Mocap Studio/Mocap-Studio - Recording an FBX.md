@@ -3,6 +3,7 @@ layout: default
 title: Mocap-Studio - Recording an FBX
 parent: Mocap Studio
 nav_order: 2
+description: "Instructions for recording mocap sessions in Mocap Studio and exporting them as FBX files, including connectivity checks, recording workflow, renaming, and exporting."
 ---
 
 # Mocap-Studio - Recording an FBX

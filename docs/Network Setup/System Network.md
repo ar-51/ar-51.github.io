@@ -3,6 +3,7 @@ layout: default
 title: System Architecture Overview
 parent: Network Setup
 nav_order: 1
+description: "High-level overview of the AR51 mocap system architecture, detailing camera connectivity, AI server requirements, low-latency processing, and best practices for building a high-performance local network."
 ---
 
 # AR-51 Mocap System Architecture Overview

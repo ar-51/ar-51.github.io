@@ -4,6 +4,7 @@ title: System Calibration
 nav_order: 4
 has_children: true
 permalink: /docs/System Calibration
+description: "Overview of AR51’s complete system calibration workflow, including camera calibration, bounding-box setup, VR device alignment, and LED-stage synchronization to ensure accurate multi-device tracking."
 ---
 
 # System Calibration

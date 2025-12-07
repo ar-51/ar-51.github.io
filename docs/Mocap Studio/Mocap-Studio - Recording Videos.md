@@ -3,6 +3,7 @@ layout: default
 title: Mocap-Studio - Video Recording
 parent: Mocap Studio
 nav_order: 4
+description: "Guide to recording raw camera video using Mocap Studio, including enabling video mode, starting recordings, retrieving .h264 files from the server, and sharing recordings for support."
 ---
 
 # AR51 Mocap Studio: Video Recording Guide

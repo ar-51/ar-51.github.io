@@ -1,0 +1,20 @@
+{% comment %}
+Force Open Graph image for all pages (WhatsApp, etc.)
+Will use:
+- page.image.path (if set in front matter as `image: { path: ... }`)
+- page.image      (if set as `image: /path.png`)
+- fallback: /assets/images/ar51-docs-og.png
+{% endcomment %}
+
+{% assign og_image =
+    page.image.path
+    | default: page.image
+    | default: '/assets/images/ar51-docs-og.png'
+%}
+
+<meta property="og:image" content="{{ og_image | absolute_url }}">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="512">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ og_image | absolute_url }}">
+

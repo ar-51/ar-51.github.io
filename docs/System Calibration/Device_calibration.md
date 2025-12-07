@@ -3,6 +3,7 @@ layout: default
 title: Device Calibration
 parent: System Calibration
 nav_order: 3
+description: "Step-by-step guide to calibrate an AR51 VR device so all devices share a common coordinate system."
 ---
 
 # Device Calibration 

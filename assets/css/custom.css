@@ -1,0 +1,17 @@
+
+/* Auto-scaling logo */
+.site-logo {
+  width: 100%;
+  height: 100%;
+  background-size: contain;    /* Keep proportions */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* Optional: reduce extra padding so it sits nicely */
+.site-header .site-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+

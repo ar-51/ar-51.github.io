@@ -204,12 +204,3 @@ body {
   height: $sp-5;
   color: $link-color;
 }
-
-/* Auto-scaling logo – fills the header area */
-.site-logo {
-  width: 100%;                 /* Take full width of sidebar header */
-  height: 100%;                /* Take full height of header container */
-  background-size: contain;    /* Scale logo proportionally */
-  background-repeat: no-repeat;
-  background-position: center;
-}

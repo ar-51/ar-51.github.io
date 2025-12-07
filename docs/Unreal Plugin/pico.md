@@ -3,6 +3,7 @@ layout: default
 title:  Using AR51’s PicoXR Plugin
 parent: Unreal Plugin
 nav_order: 8
+description: "Step-by-step tutorial for configuring AR51 with PicoXR in Unreal Engine, including plugin installation, project settings, hand-tracking support, VRPawn setup, and required Pico runtime settings."
 ---
 
 #  Using AR51’s PicoXR Plugin

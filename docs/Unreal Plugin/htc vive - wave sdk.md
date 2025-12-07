@@ -3,6 +3,7 @@ layout: default
 title: Vive - Wave SDK
 parent: Unreal Plugin
 nav_order: 3
+description: "Guide to configuring AR51 with HTC Vive Wave SDK in Unreal, covering Android setup, Wave plugins, VRPawn configuration, hand tracking, and platform selection for standalone devices."
 ---
 
 # Set up a New Unreal Vive Wave-SDK Project - Standalone Android

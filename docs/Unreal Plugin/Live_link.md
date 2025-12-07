@@ -3,6 +3,7 @@ layout: default
 title:  Using AR51’s LiveLink Plugin
 parent: Unreal Plugin
 nav_order: 6
+description: "Guide to setting up AR51’s Live Link integration in Unreal, including plugin installation, Live Link source configuration, animation blueprint setup, and real-time character streaming."
 ---
 
 #  Using AR51’s LiveLink Plugin

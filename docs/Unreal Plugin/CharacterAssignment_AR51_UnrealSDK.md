@@ -3,6 +3,7 @@ layout: default
 title:  Character Assignment in AR 51
 parent: Unreal Plugin
 nav_order: 9
+description: "Explains how AR51 assigns characters in Unreal using Active Person logic, EntityId/PersonId mappings, auto-assignment modes, and blueprint/C++ methods for runtime character control."
 ---
 
 # Character Assignment in AR 51 (Unreal SDK)

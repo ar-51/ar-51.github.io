@@ -3,6 +3,7 @@ layout: default
 title: Vive - Streaming With OpenXR
 parent: Unreal Plugin
 nav_order: 4
+description: "Setup instructions for using AR51 with HTC Vive via OpenXR streaming, including OpenXR configuration, SteamVR/VBS setup, hand-tracking requirements, and integrating AR51 OpenXR blueprints."
 ---
 
 # Set up a New Unreal Vive OpenXR-SDK Project

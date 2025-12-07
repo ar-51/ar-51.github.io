@@ -3,6 +3,7 @@ layout: default
 title:  Add a new Character to AR51’s Unreal SDK
 parent: Unreal Plugin
 nav_order: 7
+description: "How to add a custom character to AR51’s Unreal SDK, including blueprint creation, AR51Character component setup, skeletal mesh assignment, joint mapping, and integration with the Skeleton Consumer."
 ---
 
 #  Add a new Character to AR51’s Unreal SDK

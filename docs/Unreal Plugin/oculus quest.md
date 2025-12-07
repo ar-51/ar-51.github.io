@@ -3,6 +3,7 @@ layout: default
 title: Oculus Quest
 parent: Unreal Plugin
 nav_order: 2
+description: "Instructions for setting up a new Unreal Engine project for Oculus Quest using AR51, including Meta XR configuration, required plugins, VRPawn setup, hand tracking, and deployment guidelines."
 ---
 
 # Set up a New Unreal Oculus Quest Project

@@ -3,6 +3,7 @@ layout: default
 title: Basic Project
 parent: Unreal Plugin
 nav_order: 1
+description: "Step-by-step guide to creating a new Unreal project and integrating the AR51 SDK, including plugin setup, level creation, and real-time character visualization."
 ---
 
 # Set up a New Unreal Project

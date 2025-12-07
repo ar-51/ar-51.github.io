@@ -3,6 +3,7 @@ layout: default
 title:  SkeletonConsumer - Multicast Delegate Reference
 parent: Unreal Plugin
 nav_order: 10
+description: "Reference guide describing all BlueprintAssignable multicast delegates in AR51’s SkeletonConsumer component, enabling event-driven control over person detection, tracking, identity, and component lifecycle."
 ---
 
 # SkeletonConsumer - Multicast Delegate Reference

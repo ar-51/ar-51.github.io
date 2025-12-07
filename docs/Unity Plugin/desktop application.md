@@ -3,6 +3,7 @@ layout: default
 title: Desktop Application
 parent: Unity Plugin
 nav_order: 1
+description: "Step-by-step guide for setting up a new Unity desktop project using the AR51 SDK, including installation, platform selection, hand provider setup, and running the scene."
 ---
 
 # Set up a New Unity Desktop Project

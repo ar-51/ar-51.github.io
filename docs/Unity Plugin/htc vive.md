@@ -3,6 +3,7 @@ layout: default
 title: HTC Vive
 parent: Unity Plugin
 nav_order: 3
+description: "Guide for configuring a Unity project for HTC Vive and Vive Focus 3 using AR51, including WaveXR installation, XR Rig setup, natural hand tracking, platform configuration, and world-anchor alignment."
 ---
 
 # Set up a New Unity HTC Vive Project

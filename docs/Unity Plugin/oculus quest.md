@@ -3,6 +3,7 @@ layout: default
 title: Oculus Quest
 parent: Unity Plugin
 nav_order: 2
+description: "Instructions for creating a Unity project for Oculus Quest using AR51, covering Oculus Integration setup, tracking configuration, hand tracking, AR51 prefab integration, and world-anchor alignment."
 ---
 
 # Set up a New Unity Oculus Quest Project

@@ -3,6 +3,7 @@ layout: default
 title: Adding a new Character in Unity
 parent: Unity Plugin
 nav_order: 4
+description: "How to add and configure a new humanoid character in Unity with the AR51 SDK, including setting the humanoid rig, verifying joints, adding AR51 components, and registering prefabs in the Skeleton Consumer."
 ---
 
 # Adding a new Character 

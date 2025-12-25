@@ -9,7 +9,7 @@ description: "Guide to calibrating AR51’s multi-camera system using the calibr
 # Camera Calibration 
 {: .no_toc }
 
-Before activating the system, the system needs to be calibrated.
+Before capturing motion data, you must perform camera calibration so that all cameras accurately understand the capture volume and relative positions.
 {: .fs-6 .fw-300 }
 
 The calibration has two steps:

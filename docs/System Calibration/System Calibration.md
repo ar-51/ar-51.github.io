@@ -8,8 +8,7 @@ description: "Overview of AR51’s complete system calibration workflow, includi
 ---
 
 # System Calibration
-Before utilizing the system, a comprehensive calibration process is essential to ensure accurate data capture and system performance. The calibration process includes three main stages:
-
+Before using the AR51 system, you must complete camera and device calibration to ensure accurate motion capture and synchronized coordinates across all devices. The calibration process includes three main stages:
 {: .fs-6 .fw-300 }
 
 ## Camera Calibration

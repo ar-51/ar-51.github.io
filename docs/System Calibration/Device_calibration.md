@@ -9,8 +9,7 @@ description: "Step-by-step guide to calibrate an AR51 VR device so all devices s
 # Device Calibration 
 {: .no_toc }
 
-By default, every device has its own coordinate system.\
- By performing device calibration, all devices agree on a common coordinate system.
+Each VR device initially uses its own coordinate origin. Device calibration aligns those coordinates to the server’s global coordinate system so all clients agree on position and orientation.
 {: .fs-6 .fw-300 }
 
 

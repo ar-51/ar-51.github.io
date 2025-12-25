@@ -5,7 +5,7 @@ nav_order: 3
 description: "Step-by-step instructions for installing Ubuntu with AR51’s Mocap Unleash pre-configured system, covering bootable USB setup, installation workflow, network configuration, licensing, and NVIDIA driver setup."
 ---
 
-# Installing Ubuntu with Pre-Configured AR51 Mocap Unleash
+# Installing Ubuntu with the Pre-Configured AR51 Mocap Unleashed System
 
 {: .no_toc }
 
@@ -31,7 +31,7 @@ Downloading the Pre-Configured Ubuntu Installation File
 
 ## Prepare for Installation
 ### Create a Bootable USB Drive:
-Use a sofware like [etcher](https://etcher.balena.io/) to burn the ISO to a usb flash-drive.
+Use a software like [Balena-Etcher](https://etcher.balena.io/) to burn the ISO to a USB flash-drive.
 
 ### Ensure you have a USB drive or other media 
 Make sure you have a USB drive or another medium available for installing Ubuntu

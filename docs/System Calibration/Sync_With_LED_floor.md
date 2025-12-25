@@ -38,7 +38,7 @@ Examples include:
 To sync AR-51 coordinates with the LED stage:  
 CalibrationBoard With Colors.png
 1. Project the provided checkerboard image onto the LED floor.  
-   - [Download the checkerboard image](/assets/images/led_sync/CalibrationBoard With Colors.png)   
+   - [Download the checkerboard image](/assets/images/led_sync/CalibrationBoard%20With%20Colors.zip)   
    - The small mark at the center of the checkerboard indicates the AR-51 origin.  
 
 2. AR-51 uses a **right-hand coordinate system** where **Y is up**.  

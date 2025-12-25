@@ -31,8 +31,8 @@ Follow the instructions from the [unreal android guidelines](https://docs.unreal
 
 Download Meta's plugin from [meta unreal plugin](https://developer.oculus.com/downloads/package/unreal-engine-5-integration/). Extract the plugin into the project "Plugins" folder and restart the Unreal editor.
 
-## Try to use "Meta XR Performance Window" to set the project with the recommanded settings
-It is recommanded to use "Meta XR Performance Window" and follow their suggestions.
+## Try to use "Meta XR Performance Window" to set the project with the recommended settings
+It is recommended to use "Meta XR Performance Window" and follow their suggestions.
 ![meta_performance_window](/assets/images/unreal_meta_performance_window.png)
 
 ## Remember to check the "Package for Meta Quest Devices" option.

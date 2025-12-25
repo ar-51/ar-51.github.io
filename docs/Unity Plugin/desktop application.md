@@ -22,7 +22,7 @@ description: "Step-by-step guide for setting up a new Unity desktop project usin
 ## Import the AR51 SDK Unity package
 1. In Unity, choose Assets → Import Package → Custom Package…, and select the AR51 Unity SDK package. <br>
 ![1.Unity_import_custom_packages.png](/assets/images/unity_development/1.Unity_import_custom_packages.png)
-2. Choose the ar51 Unity package from the file menu.  <br>
+2. Choose the AR51 Unity package from the file menu.  <br>
 ![2.file_menu.png](/assets/images/unity_development/2.file_menu.png)  <br>
 3. You should see a progress bar when the package is loading.  <br>
 ![3.loading.png](/assets/images/unity_development/3.loading.png)  <br>

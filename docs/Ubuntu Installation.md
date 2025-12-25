@@ -2,14 +2,14 @@
 layout: default
 title: Ubuntu Installation
 nav_order: 3
-description: "Step-by-step instructions for installing Ubuntu with AR51’s Mocap Unleash pre-configured system, covering bootable USB setup, installation workflow, network configuration, licensing, and NVIDIA driver setup."
+description: "Step-by-step instructions for installing Ubuntu with AR51’s Mocap Unleashed pre-configured system, covering bootable USB setup, installation workflow, network configuration, licensing, and NVIDIA driver setup."
 ---
 
 # Installing Ubuntu with the Pre-Configured AR51 Mocap Unleashed System
 
 {: .no_toc }
 
-This guide explains how to install the Ubuntu OS with the AR51 Mocap Unleash software pre-installed and configured.
+This guide explains how to install the Ubuntu OS with the AR51 Mocap Unleashed software pre-installed and configured.
 {: .fs-6 .fw-300 }
 
 ---

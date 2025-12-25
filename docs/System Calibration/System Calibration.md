@@ -9,6 +9,9 @@ description: "Overview of AR51’s complete system calibration workflow, includi
 
 # System Calibration
 Before using the AR51 system, you must complete camera and device calibration to ensure accurate motion capture and synchronized coordinates across all devices. The calibration process includes three main stages:
+* Camera Calibration. 
+* Define the Bounding box. 
+* Device Calibration (VR-Headset Calibration).
 {: .fs-6 .fw-300 }
 
 ## Camera Calibration

@@ -76,7 +76,7 @@ Severe camera tilt, even when cameras are placed on a truss or small platform, c
 {: .warning }
 
 ## Use Live-Feed from OMS to get a feedback
-Open the oms, and press on a camera - this will show a live feed.
+Open the OMS, and press on a camera - this will show a live feed.
 
 ### Use Live-Feed to tune the position & orientation
 You can then position the camera using the live feed. 

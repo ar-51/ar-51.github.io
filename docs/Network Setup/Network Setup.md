@@ -9,7 +9,7 @@ description: "Overview of AR51’s recommended network configuration, covering b
 
 # Network Setup 
 
-Guide and best practice on network setup .
+Guide and best practices on network setup .
 {: .fs-6 .fw-300 }
 
 ![pc](/assets/images/pc.jpeg)

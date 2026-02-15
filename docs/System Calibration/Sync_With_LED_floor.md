@@ -33,8 +33,8 @@ Examples include:
 ![calibration board on stage.png](/assets/images/led_sync/calibration board on stage.png)  
 
 ---
-
-## Projecting the Checkerboard
+## Using AR51's Aruco Style checkerboard pattern
+### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
 CalibrationBoard With Colors.png
 1. Project the provided checkerboard image onto the LED floor.  
@@ -47,7 +47,29 @@ CalibrationBoard With Colors.png
 
 ---
 
+## Using AprilTag Style checkerboard pattern
+### Projecting the Checkerboard
+To sync AR-51 coordinates with the LED stage:  
+CalibrationBoard With Colors.png
+1. Project the provided checkerboard image onto the LED floor.  
+   - [Download the checkerboard image](/assets/images/led_sync/AprilTagCalibrationBoard With Colors.zip)   
+   - The center of the board is AR-51's system origin.  
+
+2. AR-51 uses a **right-hand coordinate system** where **Y is up**.  
+
+![apriltag_projection.png](/assets/images/led_sync/AprilTags_origin_highlighted.png)  
+
+---
+
 ## Rescaling the Checkerboard
+- Measure the a calibration square in the "real world"
+When you measure your "real world" checkerboard square make sure to measure the entire square - **Not just the inner aruco area**. You can also measure the pattern from side to side and divide by the number of squares for better accuracy.
+{: .warning }
+
+![aruco_settings.png](/assets/images/led_sync/CalibrationBoardSingleSquareHighlighted.png)
+![aruco_settings.png](/assets/images/led_sync/SquareSizeAprilTag.png)  
+
+
 - You may rescale the checkerboard, but it must be **uniform** so that each square remains a square.  
 - In the AR-51 server settings:  
   - Navigate to:  
@@ -60,7 +82,6 @@ When you measure your "real world" checkerboard square make sure to measure the 
 ![aruco_settings.png](/assets/images/led_sync/aruco_settings.png)  
 
 ---
-
 ## Handling Coordinate Offsets
 If the LED coordinate system is not centered on the stage (e.g., origin is in the upper-right corner), you can adjust using:  
 - `Camera Calibration Settings` → **Calibration Checkerboard Offset**  

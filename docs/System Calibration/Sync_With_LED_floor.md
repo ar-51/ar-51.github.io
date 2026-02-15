@@ -54,6 +54,9 @@ CalibrationBoard With Colors.png
     `Camera Calibration Settings` → `Checker Board Settings` → **Aruco Board Square Size Meters**  
   - Enter the real-world size of a checker square (in meters).  
 
+When you measure your "real world" checkerboard square make sure to measure the entire square - **Not just the inner aruco area**. You can also measure the pattern from side to side and divide by the number of squares for better accuracy.
+{: .warning }
+
 ![aruco_settings.png](/assets/images/led_sync/aruco_settings.png)  
 
 ---

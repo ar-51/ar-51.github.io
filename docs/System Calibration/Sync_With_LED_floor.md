@@ -57,7 +57,7 @@ To sync AR-51 coordinates with the LED stage:
 ### AR51 Server Settings
 - In the AR-51 server settings:  
   - Navigate to:  
-    `Camera Calibration Settings` → `Checker Board Settings` → **Calibration Method**  
+    `Camera Calibration Settings` → `Checker Board Settings` → **`Calibration Method`**  
   - Select **AprilTags** from the dropdown menu.  
     ![server_settings_apriltags.png](/assets/images/led_sync/server_settings_apriltags.png)  
   - Save the server settings if you want this to persist.
@@ -87,7 +87,7 @@ When you measure your "real world" checkerboard square make sure to measure the 
 - You may rescale the checkerboard, but it must be **uniform** so that each square remains a square.  
 - In the AR-51 server settings:  
   - Navigate to:  
-    `Camera Calibration Settings` → `Checker Board Settings` → **Aruco Board Square Size Meters**  
+    `Camera Calibration Settings` → `Checker Board Settings` → **`Aruco Board Square Size Meters`**  
   - Enter the real-world size of a checker square (in meters).  
 
 When you measure your "real world" checkerboard square make sure to measure the entire square - **Not just the inner aruco area**. You can also measure the pattern from side to side and divide by the number of squares for better accuracy.

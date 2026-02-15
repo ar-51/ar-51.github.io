@@ -39,7 +39,11 @@ Examples include:
   - Navigate to:  
     `Camera Calibration Settings` → `Checker Board Settings` → **Calibration Method**  
   - Select **Charuco** from the dropdown menu.  
-    ![server_settings_charuco.png](/assets/images/led_sync/server_settings_charuco.png)  
+    ![server_settings_charuco.png](/assets/images/led_sync/server_settings_charuco.png)
+  - - Navigate to:  
+    `Camera Calibration Settings` → `Checker Board Settings` → **`Board Square Count`**  
+  - Set **Board Square Count** to reflect your number of corners on the board (**8x5** in the attached file, note this is the corners not the actual squares count).
+    ![server_settings_charuco_num_tags.png](/assets/images/led_sync/server_settings_charuco_num_tags.png)
   - Save the server settings if you want this to persist.
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
@@ -59,7 +63,11 @@ To sync AR-51 coordinates with the LED stage:
   - Navigate to:  
     `Camera Calibration Settings` → `Checker Board Settings` → **`Calibration Method`**  
   - Select **AprilTags** from the dropdown menu.  
-    ![server_settings_apriltags.png](/assets/images/led_sync/server_settings_apriltags.png)  
+    ![server_settings_apriltags.png](/assets/images/led_sync/server_settings_apriltags.png)
+  - Navigate to:  
+    `Camera Calibration Settings` → `Checker Board Settings` → **`Board Square Count`**  
+  - Set **Board Square Count** to reflect your number of squares on the board (**15x10** in the attached file).
+    ![server_settings_apriltags_num_tags.png](/assets/images/led_sync/server_settings_apriltags_num_tags.png)
   - Save the server settings if you want this to persist.
 
 ### Projecting the Checkerboard

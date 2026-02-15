@@ -45,6 +45,7 @@ Examples include:
   - Set **Board Square Count** to reflect your number of corners on the board (**8x5** in the attached file, note this is the corners not the actual squares count).
     ![server_settings_charuco_num_tags.png](/assets/images/led_sync/server_settings_charuco_num_tags.png)
   - Save the server settings if you want this to persist.
+
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
 1. Project the provided checkerboard image onto the LED floor.  

@@ -36,7 +36,6 @@ Examples include:
 ## Using AR51's Aruco Style checkerboard pattern
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
-CalibrationBoard With Colors.png
 1. Project the provided checkerboard image onto the LED floor.  
    - [Download the checkerboard image](/assets/images/led_sync/CalibrationBoard%20With%20Colors.zip)   
    - The small mark at the center of the checkerboard indicates the AR-51 origin.  
@@ -50,9 +49,8 @@ CalibrationBoard With Colors.png
 ## Using AprilTag Style checkerboard pattern
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
-CalibrationBoard With Colors.png
-1. Project the provided checkerboard image onto the LED floor.  
-   - [Download the checkerboard image](/assets/images/led_sync/AprilTagCalibrationBoard With Colors.zip)   
+1. Project the provided april tags image onto the LED floor.  
+   - [Download the april tags checkerboard image](/assets/images/led_sync/AprilTagCalibrationBoard With Colors.zip)   
    - The center of the board is AR-51's system origin.  
 
 2. AR-51 uses a **right-hand coordinate system** where **Y is up**.  

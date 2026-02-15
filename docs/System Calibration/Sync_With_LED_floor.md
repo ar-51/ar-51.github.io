@@ -34,6 +34,13 @@ Examples include:
 
 ---
 ## Using AR51's Aruco Style checkerboard pattern
+### AR51 Server Settings
+- In the AR-51 server settings:  
+  - Navigate to:  
+    `Camera Calibration Settings` → `Checker Board Settings` → **Calibration Method**  
+  - Select **Charuco** from the dropdown menu.  
+    ![server_settings_charuco.png](/assets/images/led_sync/server_settings_charuco.png)  
+  - Save the server settings if you want this to persist.
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
 1. Project the provided checkerboard image onto the LED floor.  
@@ -47,6 +54,14 @@ To sync AR-51 coordinates with the LED stage:
 ---
 
 ## Using AprilTag Style checkerboard pattern
+### AR51 Server Settings
+- In the AR-51 server settings:  
+  - Navigate to:  
+    `Camera Calibration Settings` → `Checker Board Settings` → **Calibration Method**  
+  - Select **AprilTags** from the dropdown menu.  
+    ![server_settings_apriltags.png](/assets/images/led_sync/server_settings_apriltags.png)  
+  - Save the server settings if you want this to persist.
+
 ### Projecting the Checkerboard
 To sync AR-51 coordinates with the LED stage:  
 1. Project the provided april tags image onto the LED floor.  

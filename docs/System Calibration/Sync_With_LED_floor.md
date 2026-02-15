@@ -79,7 +79,7 @@ To sync AR-51 coordinates with the LED stage:
 When you measure your "real world" checkerboard square make sure to measure the entire square - **Not just the inner aruco area**. You can also measure the pattern from side to side and divide by the number of squares for better accuracy.
 {: .warning }
 
-| calibration board                                                                          | April Tags                                                            |
+| Standard Calibration Board                                                                 | AprilTags Calibration Board                                           |
 |--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | ![aruco_settings.png](/assets/images/led_sync/CalibrationBoardSingleSquareHighlighted.png) | ![aruco_settings.png](/assets/images/led_sync/SquareSizeAprilTag.png) |
 

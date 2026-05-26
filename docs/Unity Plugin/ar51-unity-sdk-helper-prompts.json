@@ -1,0 +1,61 @@
+{
+  "gpt_url": "https://chatgpt.com/g/g-6a15a27260e481919a020afcffa39ba8-ar-51-unity-sdk-helper",
+  "prompt_url_pattern": "https://chatgpt.com/g/g-6a15a27260e481919a020afcffa39ba8-ar-51-unity-sdk-helper?prompt=<urlencoded prompt>",
+  "helper_page": "docs/Unity Plugin/AR51 Unity SDK Helper GPT.md",
+  "prompt_count": 23,
+  "prompt_groups": [
+    {
+      "title": "Setup and platform prompts",
+      "prompts": [
+        "I am starting a new Unity project with the AR51 Unity SDK. Please guide me step by step for a Desktop setup.",
+        "I want to set up the AR51 Unity SDK for Oculus Quest. What are the required Unity settings, scene objects, and SDK components?",
+        "I want to set up the AR51 Unity SDK for HTC Vive. Please walk me through the required setup and common mistakes.",
+        "My AR51 Unity scene is not connecting to the service. Help me debug it step by step. Ask me for the exact logs and settings you need."
+      ]
+    },
+    {
+      "title": "Character and avatar prompts",
+      "prompts": [
+        "I want to add a new humanoid character to the AR51 Unity SDK. Please explain the full AR51-specific setup.",
+        "My AR51 character does not move when skeleton data is received. Help me debug the prefab, Animator, AR51Character, and SkeletonConsumer setup.",
+        "How do I switch between character prefabs at runtime using only confirmed AR51 Unity SDK APIs?",
+        "How should I configure SkeletonConsumer.CharacterPrefabs and character mappings for different people or skeleton IDs?"
+      ]
+    },
+    {
+      "title": "Unity C# coding prompts",
+      "prompts": [
+        "Write a Unity C# script that waits for the AR51 skeleton service and logs when it is available. Use only confirmed AR51 Unity SDK APIs.",
+        "Write a Unity C# script that subscribes to AR51 person-created and person-deleted events and logs the person ID.",
+        "Write a Unity C# script that lists all currently tracked AR51 persons and prints their IDs and model names.",
+        "Write a Unity C# script that reads AR51 controller button status from an AR51Character. Use only confirmed public APIs."
+      ]
+    },
+    {
+      "title": "Object detection prompts",
+      "prompts": [
+        "How do I use ObjectDetectionConsumer to listen for object detection updates in Unity?",
+        "Write a Unity C# script that subscribes to ObjectDetectionConsumer.OnObjectDetectionReceived and logs tracked object or marker information.",
+        "How do I show custom prefabs for tracked marker types in the AR51 Unity SDK?"
+      ]
+    },
+    {
+      "title": "Troubleshooting prompts",
+      "prompts": [
+        "My AR51 Unity character appears in the wrong place or wrong scale. Help me debug anchors, origin, scale, and character setup.",
+        "My tracked objects or markers are not visible in Unity. Help me check ObjectDetectionConsumer settings, prefabs, layers, and service connection.",
+        "The AR51 SDK works in Editor but not in build. Help me debug platform settings, network access, and required scene components.",
+        "I get missing bones or missing fingertips errors when validating my AR51 character. Explain what to check in Unity."
+      ]
+    },
+    {
+      "title": "Docs and learning prompts",
+      "prompts": [
+        "Find the most relevant AR51 docs page for adding a new Unity character and summarize the steps.",
+        "Find the most relevant AR51 docs page for Unity Desktop setup and summarize the steps.",
+        "Find the most relevant AR51 docs page for Oculus Quest setup and summarize the steps.",
+        "I want to build a feature with the AR51 Unity SDK. Ask me the right questions and then suggest which SDK APIs and docs pages to use."
+      ]
+    }
+  ]
+}

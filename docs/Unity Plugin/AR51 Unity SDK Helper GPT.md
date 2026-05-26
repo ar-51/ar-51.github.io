@@ -195,11 +195,11 @@ Click **Open prompt** to launch the helper with the prompt already filled in. Yo
 
 ## Related Unity SDK docs
 
-- [Unity Plugin overview]({% link docs/Unity Plugin/Unity Plugin.md %})
-- [Desktop application setup]({% link docs/Unity Plugin/desktop application.md %})
-- [Oculus Quest setup]({% link docs/Unity Plugin/oculus quest.md %})
-- [HTC Vive setup]({% link docs/Unity Plugin/HTC Vive Focus.md %})
-- [Adding a new Character in Unity]({% link docs/Unity Plugin/Adding a new Character in Unity.md %})
+- [Unity Plugin overview]({{ site.baseurl }}/docs/Unity%20Plugin/)
+- [Desktop application setup]({{ site.baseurl }}/docs/Unity%20Plugin/desktop%20application/)
+- [Oculus Quest setup]({{ site.baseurl }}/docs/Unity%20Plugin/oculus%20quest/)
+- [Adding a new Character in Unity]({{ site.baseurl }}/docs/Unity%20Plugin/Adding%20a%20new%20Character%20in%20Unity/)
+
 
 ## Notes
 

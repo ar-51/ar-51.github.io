@@ -101,6 +101,13 @@ show vlan all
 ![vlan_commands_show.png](/assets/images/network%20setup/vlan_creation/vlan_commands_show.png)
 
 
+### Step 9: Save Configuration
+- To save the configuration on the switch use the following command:
+
+```bash
+write memory
+```
+
 ## Summary
 
 At the end of this process, you should have **8 VLANs defined**. Each VLAN holds **3 connections**: 1 to the PC and 2 to cameras. In the diagram below, each VLAN is shown with a distinct color.
